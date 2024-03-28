@@ -6,7 +6,7 @@ import "./banner.css";
 const BannerSection = () => {
   return (
     <section className="relative w-full h-[500px] mt-[5rem]">
-      <div className="md:ml-[12rem] absolute md:w-[45%] w-full md:h-[500px] h-[440px] bg-[#D4BAA3] flex flex-col md:justify-center justify-end gap-2 px-14 text-white md:mt-0 mt-16 md:pb-0 pb-12">
+      <div className="md:ml-[12rem] absolute md:w-[45%] w-full md:h-[500px] h-[440px] bg-[#D4BAA3] flex flex-col md:justify-center justify-end gap-2 px-14 text-white md:mt-5 mt-16 md:pb-0 pb-12">
         {/* <span className=" text-[#CD885F] xl:text-xl md:text-lg text-sm">
           Stunning Jewels
         </span> */}

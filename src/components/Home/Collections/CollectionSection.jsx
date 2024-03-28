@@ -9,13 +9,13 @@ const CollectionSection = () => {
       {/* HEADINGS SECTION */}
       <div className=" flex flex-col gap-1 text-center">
 
-        <h3 className=" md:text-4xl text-2xl text-headingColor capitalize">
+        <h3 className=" md:text-4xl text-1xl text-headingColor capitalize">
           Our Collections
         </h3>
       </div>
 
       {/* CARDS SECTION */}
-      <div className="flex justify-center md:gap-[2rem] gap-[1rem]  p-2  ">
+      <div className="flex md:justify-center  md:gap-[2rem] gap-[1rem]  p-2  ">
         {Collections.map((item, i) => (
           <CollectionCard key={i} {...item} />
         ))}
