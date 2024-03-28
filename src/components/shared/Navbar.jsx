@@ -15,7 +15,7 @@ const navLinks = [
   },
   {
     id: 2,
-    title: "Necklace Sets",
+    title: "Earings",
     // sublinks: [
     //   "All Necklace Sets",
     //   "Polki Sets",
@@ -26,12 +26,12 @@ const navLinks = [
 
   {
     id: 4,
-    title: "Earings",
+    title: "Necklace Sets",
   },
 
   {
     id: 6,
-    title: "Scarves/Hijab",
+    title: "Bangles",
   },
 ];
 
@@ -151,11 +151,11 @@ const Navbar = () => {
               }  justify-between w-full py-3`}
           >
             <FiMenu
-              className=" text-3xl text-primaryColor"
+              className=" text-3xl text-[#fdeab8]"
               onClick={() => setIsMobileOpen((prev) => !prev)}
             />
             <img src="https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/logo.png?updatedAt=1711594580966" className="w-[8rem]" />
-            <FiShoppingCart className=" text-3xl text-primaryColor" />
+            <IoIosSearch className=" text-3xl text-[#fdeab8]" />
           </div>
           <div
             className={` ${isMobileOpen ? "flex" : "hidden"
@@ -182,10 +182,10 @@ const Navbar = () => {
                       <span className=" text-sm text-slate-500">
                         {item.title}
                       </span>
-                      <IoIosArrowForward className=" text-sm text-slate-500" onClick={() => {
+                      {/* <IoIosArrowForward className=" text-sm text-slate-500" onClick={() => {
                         setHoveredLinkId(item.id)
                         setOpenSubLinks((prev) => !prev)
-                      }} />
+                      }} /> */}
                     </li>
                     {openSubLinks && subLinks && (item.id === hoveredLinkId) &&
                       <div className=" ml-5">

@@ -45,13 +45,11 @@ const Footer = () => {
             <h3 className=' capitalize'>follow us:</h3>
             <div className=' flex gap-3'>
               <div className=' rounded-[50%] p-2 bg-white'>
-                <FaFacebookF className='text-black' />
+                <a href='https://www.facebook.com/p/Mirpur-jewellers-100063830221549/'><FaFacebookF className='text-black' /></a>
               </div>
+
               <div className=' rounded-[50%] p-2 bg-white'>
-                <FaTwitter className='text-black' />
-              </div>
-              <div className=' rounded-[50%] p-2 bg-white'>
-                <FaInstagram className='text-black' />
+                <a href='https://www.instagram.com/mirpur_jewellers_derby_?igsh=MXE2a2MxdzN6NGQ0OA=='>  <FaInstagram className='text-black' /></a>
               </div>
             </div>
           </div>
@@ -103,14 +101,12 @@ const Footer = () => {
               <h3 className=' capitalize'>follow us:</h3>
               <div className=' flex gap-3'>
                 <div className=' rounded-[50%] p-2 bg-white'>
-                  <FaFacebookF className='text-black' />
+                  <a href='https://www.facebook.com/p/Mirpur-jewellers-100063830221549/'><FaFacebookF className='text-black' /></a>
                 </div>
                 <div className=' rounded-[50%] p-2 bg-white'>
-                  <FaTwitter className='text-black' />
+                  <a href='https://www.instagram.com/mirpur_jewellers_derby_?igsh=MXE2a2MxdzN6NGQ0OA=='>  <FaInstagram className='text-black' /></a>
                 </div>
-                <div className=' rounded-[50%] p-2 bg-white'>
-                  <FaInstagram className='text-black' />
-                </div>
+
               </div>
             </div>
           </div>
@@ -121,10 +117,10 @@ const Footer = () => {
                 <h3 className='text-lg uppercase font-semibold'>get in  touch with us</h3>
                 <hr className='w-12 my-1 rounded-lg' style={{ border: "3px solid #BD9229" }} />
               </div>
-              <div className=' flex flex-col gap-3 capitalize text-black'>
-                <p>Phone: +44 133 2200205</p>
-                <p>support@mirpur.com</p>
-                <p>12 Pear Tree Road, Derby, United Kingdom</p>
+              <div className=' flex flex-col gap-3  text-black'>
+                <p><strong>Phone:</strong> +44 133 2200205</p>
+                <p><strong>E-mail:</strong> support@mirpurjewellersderby.co.uk</p>
+                <p><strong>Address:</strong> 12 Pear Tree Road, Derby, United Kingdom</p>
 
               </div>
             </div>
@@ -164,7 +160,7 @@ const Footer = () => {
         <div className='flex flex-col gap-3 text-center '>
           <hr className=' w-full text-[#707070]' />
           <div className=' pl-10'>
-            <h3 className=' capitalize text-lg text-black'>designed by WebCraftio</h3>
+            <h3 className=' capitalize text-lg text-black'>designed by <a href='https://www.webcraftio.com/'> WebCraftio</a></h3>
           </div>
 
         </div>

@@ -2,6 +2,7 @@ import React from "react";
 import CollectionCard from "./CollectionCard";
 import { Collections } from "../../../data/Collections";
 import MainBtn from "../../shared/MainBtn";
+import { Link } from "react-router-dom";
 
 const CollectionSection = () => {
   return (
@@ -21,7 +22,7 @@ const CollectionSection = () => {
         ))}
       </div>
       <div className="mt-3 flex bg-white   justify-center items-center">
-        <MainBtn />
+      <Link to='./CollectionPage'> <MainBtn /></Link>
       </div>
     </div>
   );
