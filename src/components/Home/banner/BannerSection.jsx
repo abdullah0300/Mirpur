@@ -2,6 +2,7 @@ import React from "react";
 import banner1 from "../../../assets/images/banner/banner-1.png";
 import SecondaryBtn from "../../shared/SecondaryBtn";
 import "./banner.css";
+import { Link } from "react-router-dom";
 
 const BannerSection = () => {
   return (
@@ -15,11 +16,11 @@ const BannerSection = () => {
           Mi Bibendum Neque Egestas Congue Quisque Egestas Diam. Ullamcorper Sit
           Amet Risus Nullam. Vehicula Ipsum A Arcu Cursus Vitae Congue Mauris.
         </p>
-        <button className=' text-center w-[8rem] bg-[#f8f9fa] px-[20px] py-[10px] text-black text-xl hover:text-[#fff] hover:bg-white transition-all duration-300 ease-in-out transform-gpu hover:scale-105 group'>
-          <span className='transform translate-y-[8] transition duration-300 ease-in-out group-hover:translate-y-[200px]'>
+        <Link to='./CollectionPage'><button className=' text-center w-[8rem] bg-[#f8f9fa] px-[20px] py-[10px] text-black text-xl hover:text-[#fff] hover:bg-white transition-all duration-300 ease-in-out transform-gpu hover:scale-105 group'>
+         <span className='transform translate-y-[8] transition duration-300 ease-in-out group-hover:translate-y-[200px]'>
             View All
           </span>
-        </button>
+        </button></Link>
       </div>
       <div className=" md:w-1/2  w-[20rem] md:mr-10 md:h-[600px] md:-mt-[5rem] md:h-66 h-[15rem] md:right-0 justify-center  right-[15%] bannerImg flex transition-transform duration-300 ease-in-out transform hover:scale-105">
         <video autoPlay muted loop >

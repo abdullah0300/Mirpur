@@ -36,12 +36,12 @@ export const Collections = [
     //     img: Bangles,
     //     title: "1.5g Micro Gold"
     // },
-    // {
-    //     img: Ring,
-    //     title: "Rings"
-    // },
-    // {
-    //     img: Nose,
-    //     title: "Nose"
-    // },
+    {
+        img: Ring,
+        title: "Rings"
+    },
+    {
+        img: Nose,
+        title: "Nose"
+    },
 ]

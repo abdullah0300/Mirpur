@@ -16,13 +16,13 @@ const CollectionSection = () => {
       </div>
 
       {/* CARDS SECTION */}
-      <div className="flex md:justify-center  md:gap-[2rem] gap-[1rem]  p-2  ">
-        {Collections.map((item, i) => (
+      <div className="flex md:justify-center md:gap-[2rem] gap-[1rem] p-2">
+        {Collections.slice(0, 3).map((item, i) => (
           <CollectionCard key={i} {...item} />
         ))}
       </div>
       <div className="mt-3 flex bg-white   justify-center items-center">
-      <Link to='./CollectionPage'> <MainBtn /></Link>
+        <Link to='./CollectionPage'> <MainBtn /></Link>
       </div>
     </div>
   );

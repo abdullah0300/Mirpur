@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
 import { FaPlus } from "react-icons/fa6";
+import { Link } from 'react-router-dom';
 
 const data = [
   {
@@ -134,9 +135,8 @@ const Footer = () => {
               <hr className='w-12 my-1 rounded-lg' style={{ border: "3px solid #BD9229" }} />
             </div>
             <div className=' flex flex-col gap-3 capitalize text-black'>
-              <p>about us</p>
-              <p>contact us</p>
-              <p>our collection</p>
+              <Link to='./Contact'> <p>contact us</p></Link>
+              <Link to='./CollectionPage'><p>our collection</p></Link>
             </div>
           </div>
 
