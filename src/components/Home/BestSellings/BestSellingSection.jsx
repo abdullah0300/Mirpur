@@ -15,7 +15,7 @@ const BestSellingSection = () => {
         </div>
 
         {/* CARDS SECTION */}
-        <div className=" flex w-full justify-start overflow-x-auto whitespace-nowrap scrollbarHide   ">
+        <div className=" flex w-full md:justify-center justify-start overflow-x-auto whitespace-nowrap scrollbarHide   ">
           <div className="md:grid md:grid-cols-4  gap-[0rem]   grid-cols-4 flex md:gap-2">
 
             {bestSelling.map((item, i) => (

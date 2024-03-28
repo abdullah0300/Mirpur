@@ -2,7 +2,7 @@ import React from "react";
 
 const SellingCard = ({ img, title }) => {
   return (
-    <div className=" flex flex-col gap-2 text-left md:w-full w-80 xl:px-4 md:px-3 px-3 transition-transform duration-300 ease-in-out transform hover:scale-105">
+    <div className=" flex flex-col gap-2 text-left md:w-full w-60 xl:px-4 md:px-3 px-3 transition-transform duration-300 ease-in-out transform hover:scale-105">
       <div className=" sellingCard relative">
         <img src={img} alt="img" className=" w-full h-60" />
         {/* <div className=" sellingCard-hover-div">
