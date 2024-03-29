@@ -66,8 +66,8 @@ const ProductPage = () => {
     return (
         <>
             <Navbar />
-            <div className=" flex flex-col text-left  gap-8 md:px-[60px] px-[16px] md:my-10">
-
+            <div className=" flex flex-col text-left  gap-8 md:px-[60px] px-[16px] md:my-0">
+                <span className="md:h-[1rem] h-[2rem]"></span>
                 <img src={categoryImage} alt={categoryId} width="1600" height="900" />
 
 
