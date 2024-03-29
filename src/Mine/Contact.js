@@ -8,12 +8,13 @@ const Contact = ({ }) => {
         <div>
             <Navbar />
             <section class=" bg-[#ffffff]" id="contact">
-                <img src='https://ik.imagekit.io/mctozv7td/meena/2.jpg?updatedAt=1711471154963' alt="Hero Image" width="1600" height="900" className="md:mt-[0rem] mt-[4rem]" />
+                <div className="h-[4rem] md:h-[0rem]"></div>
+                <img src='https://ik.imagekit.io/mctozv7td/meena/2.jpg?updatedAt=1711471154963' alt="Hero Image" width="1600" height="900" className="" />
 
                 <div class="mx-auto max-w-7xl px-4 py-16  sm:px-6 lg:px-8 lg:py-20">
                     <div class="mb-4">
                         <div class="mb-6 max-w-3xl text-center sm:text-center md:mx-auto md:mb-12">
-                            <p class="text-base font-semibold uppercase tracking-wide text-[#b1704b] md:mt-0 mt-[2rem]   dark:text-[#b1704b] ">
+                            <p class="text-base font-semibold uppercase tracking-wide text-[#b1704b] md:mt-0    dark:text-[#b1704b] ">
                                 Contact
                             </p>
                             <h2
@@ -46,8 +47,8 @@ const Contact = ({ }) => {
                                         <div class="ml-4 mb-4">
                                             <h3 class="mb-2 text-lg font-medium leading-6 text-gray-900 dark:text-white">Our Address
                                             </h3>
-                                            <p class="text-black dark:text-black">1230 Maecenas Street Donec Road</p>
-                                            <p class="text-black dark:text-black">New York, EEUU</p>
+                                            <p class="text-black dark:text-black">12 Pear Tree Road, </p>
+                                            <p class="text-black dark:text-black">Derby, United Kingdom</p>
                                         </div>
                                     </li>
                                     <li class="flex">
@@ -65,8 +66,8 @@ const Contact = ({ }) => {
                                         <div class="ml-4 mb-4">
                                             <h3 class="mb-2 text-lg font-medium leading-6 text-gray-900 dark:text-white">Contact
                                             </h3>
-                                            <p class="text-black dark:text-black">Mobile: +1 (123) 456-7890</p>
-                                            <p class="text-black dark:text-black">Mail: tailnext@gmail.com</p>
+                                            <p class="text-black dark:text-black">Mobile: +44 133 2200205</p>
+                                            <p class="text-black dark:text-black">Mail: support@mirpurjewellersderby.co.uk</p>
                                         </div>
                                     </li>
                                     <li class="flex">
@@ -121,7 +122,7 @@ const Contact = ({ }) => {
                         <div class="col-md-10 offset-md-1">
                             <div class="map_inner">
                                 <div class="map_bind">
-                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d471220.5631094339!2d88.04952462217592!3d22.6757520733225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f882db4908f667%3A0x43e330e68f6c2cbc!2sKolkata%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1596988408134!5m2!1sen!2sin" width="100%" height="450" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2426.291153042052!2d-1.4789788855769126!3d52.90862577110699!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4879f0dfebe8cdf5%3A0x4860f580183079af!2sMirpur%20Jewellers!5e0!3m2!1sen!2suk!4v1648645326090!5m2!1sen!2suk" width="100%" height="450" allowfullscreen="100" loading="lazy"></iframe>
                                 </div>
                             </div>
                         </div>

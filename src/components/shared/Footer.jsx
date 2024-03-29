@@ -36,7 +36,7 @@ const Footer = () => {
 
   return (
     <>
-      <div className=' flex flex-col gap-5 bg-[#FEF2EB] py-10 md:py-4'>
+      <div className=' flex flex-col gap-5 bg-[#F1F3F4] py-10 md:py-4'>
 
         {/* MOBILE */}
 
@@ -83,7 +83,7 @@ const Footer = () => {
 
             <div className='  justify-between text-black'>
               <p className=' capitalize text-[19px]'>about us</p>
-             <Link to='./Contact'> <p className=' capitalize text-[19px] mt-2'>contact us</p></Link>
+              <Link to='./Contact'> <p className=' capitalize text-[19px] mt-2'>contact us</p></Link>
 
             </div>
 
