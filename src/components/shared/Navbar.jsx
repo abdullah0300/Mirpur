@@ -74,7 +74,7 @@ const Navbar = () => {
             />
             <Link to='/'><img
               src="https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/logo.png?updatedAt=1711594580966"
-              className="w-[8rem] mr-[8rem]"
+              className="w-[8rem] mr-[6rem]"
             /></Link>
             {/* <IoIosSearch className="text-3xl text-[#fdeab8]" /> */}
           </div>
