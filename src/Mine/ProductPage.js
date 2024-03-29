@@ -7,35 +7,42 @@ import Footer from "../components/shared/Footer";
 import Bangles from "../assets/images/collections/bangles.jpg";
 import Earrings from "../assets/images/collections/earings.jpg";
 
-
 const products = {
     bridal: [
         { name: 'New Bridal', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/3e362f715486bfb73a4ada8ce90ca733.jpg?updatedAt=1711595037890', description: 'description' },
         { name: 'Product 2', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/3e362f715486bfb73a4ada8ce90ca733.jpg?updatedAt=1711595037890', description: 'description' },
         { name: 'Product 3', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/3e362f715486bfb73a4ada8ce90ca733.jpg?updatedAt=1711595037890', description: 'description' },
         { name: 'Product 4', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/3e362f715486bfb73a4ada8ce90ca733.jpg?updatedAt=1711595037890', description: 'description' },
-        { name: 'Product 5', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/3e362f715486bfb73a4ada8ce90ca733.jpg?updatedAt=1711595037890', description: 'description' }
+        { name: 'Product 5', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/3e362f715486bfb73a4ada8ce90ca733.jpg?updatedAt=1711595037890', description: 'description' },
+        { src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/More%20(1).png?updatedAt=1711750339410', description: 'description' }
+
     ],
     necklaces: [
         { name: 'Necklace ', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/4bd4b6d1b929fcddd6d87bede153a14f.jpg?updatedAt=1711595038133', description: 'description' },
         { name: 'Product 2', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/4bd4b6d1b929fcddd6d87bede153a14f.jpg?updatedAt=1711595038133', description: 'description' },
         { name: 'Product 3', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/4bd4b6d1b929fcddd6d87bede153a14f.jpg?updatedAt=1711595038133', description: 'description' },
         { name: 'Product 4', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/4bd4b6d1b929fcddd6d87bede153a14f.jpg?updatedAt=1711595038133', description: 'description' },
-        { name: 'Product 5', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/4bd4b6d1b929fcddd6d87bede153a14f.jpg?updatedAt=1711595038133', description: 'description' }
+        { name: 'Product 5', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/4bd4b6d1b929fcddd6d87bede153a14f.jpg?updatedAt=1711595038133', description: 'description' },
+        { src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/More%20(1).png?updatedAt=1711750339410' }
+
     ],
     bangles: [
         { name: 'Bangles  ', src: Bangles, description: 'description' },
         { name: 'Product 2', src: Bangles, description: 'description' },
         { name: 'Product 3', src: Bangles, description: 'description' },
         { name: 'Product 4', src: Bangles, description: 'description' },
-        { name: 'Product 5', src: Bangles, description: 'description' }
+        { name: 'Product 5', src: Bangles, description: 'description' },
+        { src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/More%20(1).png?updatedAt=1711750339410' }
+
     ],
     earings: [
         { name: 'Earrings ', src: Earrings, description: 'description' },
         { name: 'Product 2', src: Earrings, description: 'description' },
         { name: 'Product 3', src: Earrings, description: 'description' },
         { name: 'Product 4', src: Earrings, description: 'description' },
-        { name: 'Product 5', src: Earrings, description: 'description' }
+        { name: 'Product 5', src: Earrings, description: 'description' },
+        { src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/More%20(1).png?updatedAt=1711750339410' }
+
     ]
 };
 const ProductPage = () => {
@@ -43,18 +50,28 @@ const ProductPage = () => {
     const productList = products[categoryId];
     const categoryDescriptions = {
         bridal: "Welcome to Mirpur Jewellers Derby, where timeless elegance meets modern sophistication in our exquisite bridal jewelry collection. From dazzling diamond sets to intricately crafted gold and pearl designs, each piece is meticulously curated to enhance the beauty of every bride on her special day. ",
-        necklaces: "Elevate your elegance with our exquisite necklaces, curated with finesse, only at Mirpur Jewellers UK. Adorn yourself with timeless beauty and sophistication.",
-        bangles: "Indulge in the allure of tradition and modernity with our stunning bangles, meticulously crafted to grace your wrists. Explore the epitome of craftsmanship at Mirpur Jewellers UK.",
-        earings: "Elevate your style with our stunning earrings, designed to captivate hearts and turn heads. Explore the epitome of elegance and craftsmanship at Mirpur Jewellers UK."
+        necklaces: "Elevate your elegance with our exquisite necklaces, curated with finesse, only at Mirpur Jewellers Derby. Adorn yourself with timeless beauty and sophistication.",
+        bangles: "Indulge in the allure of tradition and modernity with our stunning bangles, meticulously crafted to grace your wrists. Explore the epitome of craftsmanship at Mirpur Jewellers Derby.",
+        earings: "Elevate your style with our stunning earrings, designed to captivate hearts and turn heads. Explore the epitome of elegance and craftsmanship at Mirpur Jewellers Derby."
     };
     const categoryDescription = categoryDescriptions[categoryId];
+    const categoryImages = {
+        bridal: 'https://ik.imagekit.io/mctozv7td/meena/1.jpg?updatedAt=1711471154752', // Add your bridal category image source here
+        necklaces: 'https://ik.imagekit.io/mctozv7td/meena/2.jpg?updatedAt=1711471154963', // Add your necklaces category image source here
+        bangles: 'https://ik.imagekit.io/mctozv7td/meena/2.jpg?updatedAt=1711471154963', // Add your bangles category image source here
+        earings: 'https://ik.imagekit.io/mctozv7td/meena/2.jpg?updatedAt=1711471154963' // Add your earrings category image source here
+    };
+    const categoryImage = categoryImages[categoryId];
 
     return (
         <>
             <Navbar />
             <div className=" flex flex-col text-left  gap-8 md:px-[60px] px-[16px] md:my-10">
 
-                <h3 className="capitalize md:text-4xl text-2xl text-center text-[#b1704b]    md:mt-[0rem] mt-[5rem] ">
+                <img src={categoryImage} alt={categoryId} width="1600" height="900" />
+
+
+                <h3 className="capitalize md:text-4xl text-2xl text-center text-[#b1704b]     ">
                     {categoryId}
                 </h3>
                 {/* HEADINGS SECTION */}

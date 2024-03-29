@@ -30,7 +30,7 @@ const Contact = ({ }) => {
                         <div class="grid md:grid-cols-2">
                             <div class="h-full pr-6">
                                 <p class="mt-3 mb-12 text-lg text-black dark:text-black">
-                                    <span className="font-semibold text-xl  text-[#b1704b]">Mirpur Jewellers UK</span>,we merge heritage with contemporary craftsmanship, offering timeless pieces that resonate with elegance and sophistication. Discover our curated collection, where every creation embodies the essence of beauty and tradition.
+                                    <span className="font-semibold text-xl  text-[#b1704b]">Mirpur Jewellers Derby</span>,we merge heritage with contemporary craftsmanship, offering timeless pieces that resonate with elegance and sophistication. Discover our curated collection, where every creation embodies the essence of beauty and tradition.
                                 </p>
                                 <ul class="mb-6 md:mb-0">
                                     <li class="flex">
