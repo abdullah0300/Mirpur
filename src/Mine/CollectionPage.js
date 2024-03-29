@@ -18,7 +18,7 @@ const CollectionPage = () => {
         <>
             <Navbar />
             <div className="container mx-auto mb-[3rem]">
-                <div className="h-[5rem]"></div><h3 className="xl:text-3xl text-black md:text-3xl text-2xl royal md:text-center  text-left md:mt-4">Royal Collection</h3>
+                <div className="md:h-[1rem] h-[5rem]"></div><h3 className="xl:text-3xl text-black md:text-3xl text-2xl royal md:text-center  text-left md:mt-2">Royal Collection</h3>
                 <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 md:mt-5 mt-4 justify-center">
                     {categories.map((category, index) => (
 

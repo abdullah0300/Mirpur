@@ -34,7 +34,7 @@ const Navbar = () => {
                   className="h-[3rem]"
                 />
               </Link>
-              <div className="flex gap-5">
+              <div className="flex gap-5 mr-[16rem]">
                 {categories.map((category, index) => (
                   <Link key={index} to={`/ProductPage/${category.id}`}>
                     <li className="xl:text-lg md:text-base cursor-pointer transition-all duration-200 ease-in-out transform-gpu borderNavlinks">
@@ -46,7 +46,7 @@ const Navbar = () => {
                   Contact Us
                 </li>
               </div>
-              <div className="search-div flex gap-2 md:flex">
+              {/* <div className="search-div flex gap-2 md:flex">
                 <div className="searchLogo">
                   <IoIosSearch />
                 </div>
@@ -55,7 +55,7 @@ const Navbar = () => {
                   placeholder="Search..."
                   type="text"
                 />
-              </div>
+              </div> */}
             </ul>
           </div>
         </nav>
@@ -74,9 +74,9 @@ const Navbar = () => {
             />
             <Link to='/'><img
               src="https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/logo.png?updatedAt=1711594580966"
-              className="w-[8rem]"
+              className="w-[8rem] mr-[8rem]"
             /></Link>
-            <IoIosSearch className="text-3xl text-[#fdeab8]" />
+            {/* <IoIosSearch className="text-3xl text-[#fdeab8]" /> */}
           </div>
           <div
             className={` ${isMobileOpen ? "flex" : "hidden"
