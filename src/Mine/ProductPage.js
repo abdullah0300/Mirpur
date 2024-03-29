@@ -1,5 +1,5 @@
 import React from "react";
-import SellingCard from "../components/Home/BestSellings/SellingCard";
+import ProductCard from "./ProductCard";
 import { bestSelling } from "../data/BestSelling";
 import { useParams } from 'react-router-dom';
 import Navbar from "../components/shared/Navbar";
@@ -54,11 +54,11 @@ const ProductPage = () => {
                 </div>
 
                 {/* CARDS SECTION */}
-                <div className="  w-full md:justify-center     ">
+                <div className="  w-full md:justify-center justify-center     ">
                     <div className="md:grid md:grid-cols-4  gap-[0rem] grid  grid-cols-2  md:gap-2">
 
                         {productList.map((product, index) => (
-                            <SellingCard key={index} title={product.name} img={product.src} />
+                            <ProductCard key={index} title={product.name} img={product.src} />
                         ))}
                     </div>
                 </div>
