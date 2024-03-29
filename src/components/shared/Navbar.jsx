@@ -2,6 +2,14 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { IoIosSearch } from "react-icons/io";
 import { FiMenu, FiX } from "react-icons/fi";
+import Bangles from "../../assets/images/collections/bangles.jpg";
+
+const categories = [
+  { name: 'Bridal', id: 'bridal', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/signal-2024-03-28-081020_005.jpeg?updatedAt=1711595532330' },
+  { name: 'Necklaces', id: 'necklaces', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/c37564f44c5a7bd589fe88a05fb6830c.jpg?updatedAt=1711595038162' },
+  { name: 'Earings', id: 'earings', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/signal-2024-03-28-081020_004.jpeg?updatedAt=1711595534488' },
+  { name: 'Bangles', id: 'bangles', src: Bangles },
+];
 
 const Navbar = () => {
   const [isMobileOpen, setIsMobileOpen] = React.useState(false);
@@ -19,28 +27,25 @@ const Navbar = () => {
                 borderBottom: "1px solid #EDEDED",
               }}
             >
-              <Link to='/'><img
-                src="https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/logo.png?updatedAt=1711594580966"
-                alt="logo"
-                className="h-[3rem]"
-              /></Link>
-
-              <li className="xl:text-lg md:text-base cursor-pointer transition-all duration-200 ease-in-out transform-gpu borderNavlinks">
-                <Link to="/ProductPage">Bridal Sets</Link>
-              </li>
-              <li className="xl:text-lg md:text-base cursor-pointer transition-all duration-200 ease-in-out transform-gpu borderNavlinks">
-                <Link to="/category/earings">Earings</Link>
-              </li>
-              <li className="xl:text-lg md:text-base cursor-pointer transition-all duration-200 ease-in-out transform-gpu borderNavlinks">
-                <Link to="/category/necklace-sets">Necklace Sets</Link>
-              </li>
-              <li className="xl:text-lg md:text-base cursor-pointer transition-all duration-200 ease-in-out transform-gpu borderNavlinks">
-                <Link to="/category/bangles">Bangles</Link>
-              </li>
-              <li className="xl:text-lg md:text-base cursor-pointer transition-all duration-200 ease-in-out transform-gpu borderNavlinks">
-                <Link to="/Contact">Contact Us</Link>
-              </li>
-
+              <Link to="/">
+                <img
+                  src="https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/logo.png?updatedAt=1711594580966"
+                  alt="logo"
+                  className="h-[3rem]"
+                />
+              </Link>
+              <div className="flex gap-5">
+                {categories.map((category, index) => (
+                  <Link key={index} to={`/ProductPage/${category.id}`}>
+                    <li className="xl:text-lg md:text-base cursor-pointer transition-all duration-200 ease-in-out transform-gpu borderNavlinks">
+                      {category.name}
+                    </li>
+                  </Link>
+                ))}
+                <li className="xl:text-lg md:text-base cursor-pointer transition-all duration-200 ease-in-out transform-gpu borderNavlinks">
+                  Contact Us
+                </li>
+              </div>
               <div className="search-div flex gap-2 md:flex">
                 <div className="searchLogo">
                   <IoIosSearch />
@@ -81,12 +86,16 @@ const Navbar = () => {
               className="text-3xl text-[#fdeab8]"
               onClick={() => setIsMobileOpen(false)}
             />
-            <Link to="/category/bridal-sets">Bridal Sets</Link>
-            <Link to="/category/earings">Earings</Link>
-            <Link to="/category/necklace-sets">Necklace Sets</Link>
-            <Link to="/category/bangles">Bangles</Link>
-            <Link to="/Contact">Contact Us</Link>
-
+            {categories.map((category, index) => (
+              <Link key={index} to={`/ProductPage/${category.id}`}>
+                <p className="xl:text-lg md:text-base cursor-pointer transition-all duration-200 ease-in-out transform-gpu">
+                  {category.name}
+                </p>
+              </Link>
+            ))}
+            <p className="xl:text-lg md:text-base cursor-pointer transition-all duration-200 ease-in-out transform-gpu">
+              Contact Us
+            </p>
           </div>
         </nav>
       </header>
