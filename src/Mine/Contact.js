@@ -30,7 +30,7 @@ const Contact = ({ }) => {
                         <div class="grid md:grid-cols-2">
                             <div class="h-full pr-6">
                                 <p class="mt-3 mb-12 text-lg text-black dark:text-black">
-                                    <span className="font-semibold text-xl  text-[#b1704b]">Mirpur Jewellers Derby</span>,we merge heritage with contemporary craftsmanship, offering timeless pieces that resonate with elegance and sophistication. Discover our curated collection, where every creation embodies the essence of beauty and tradition.
+                                    <span className="font-semibold md:text-2xl text-xl  text-[#b1704b]">Mirpur Jewellers Derby</span>, we merge heritage with contemporary craftsmanship, offering timeless pieces that resonate with elegance and sophistication. Discover our curated collection, where every creation embodies the essence of beauty and tradition.
                                 </p>
                                 <ul class="mb-6 md:mb-0">
                                     <li class="flex">
@@ -88,24 +88,24 @@ const Contact = ({ }) => {
                                     </li>
                                 </ul>
                             </div>
-                            <div class="card h-fit max-w-6xl p-5 md:p-12" id="form">
-                                <h2 class="mb-4 text-2xl font-bold dark:text-grey">Ready to Get Started?</h2>
+                            <div class="card h-fit max-w-6xl md:mt-5 p-5 md:p-10" id="form">
+                                <h2 class="mb-3 text-2xl font-bold dark:text-grey">Ready to Get Started?</h2>
                                 <form id="contactForm">
-                                    <div class="mb-6">
+                                    <div class="mb-3">
                                         <div class="mx-0 mb-1 sm:mb-4">
                                             <div class="mx-0 mb-1 sm:mb-4">
-                                                <label for="name" class="pb-1 text-xs uppercase tracking-wider"></label><input type="text" id="name" autocomplete="given-name" placeholder="Your name" class="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0" name="name" />
+                                                <label for="name" class="pb-1 text-xs uppercase tracking-wider"></label><input type="text" id="name" autocomplete="given-name" placeholder="Your name" class="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-sm dark:text-gray-300 sm:mb-0" name="name" />
                                             </div>
                                             <div class="mx-0 mb-1 sm:mb-4">
-                                                <label for="email" class="pb-1 text-xs uppercase tracking-wider"></label><input type="email" id="email" autocomplete="email" placeholder="Your email address" class="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0" name="email" />
+                                                <label for="email" class="pb-1 text-xs uppercase tracking-wider"></label><input type="email" id="email" autocomplete="email" placeholder="Your email address" class="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-sm dark:text-gray-300 sm:mb-0" name="email" />
                                             </div>
                                         </div>
                                         <div class="mx-0 mb-1 sm:mb-4">
-                                            <label for="textarea" class="pb-1 text-xs uppercase tracking-wider"></label><textarea id="textarea" name="textarea" cols="30" rows="5" placeholder="Write your message..." class="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0"></textarea>
+                                            <label for="textarea" class="pb-1 text-xs uppercase tracking-wider"></label><textarea id="textarea" name="textarea" cols="30" rows="5" placeholder="Write your message..." class="mb-1 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-sm dark:text-gray-300 sm:mb-0"></textarea>
                                         </div>
                                     </div>
                                     <div class="text-center">
-                                        <button type="submit" class="w-full bg-light text-black px-6 py-3 font-xl sm:mb-0">Send Message</button>
+                                        <button type="submit" class="w-full bg-light text-black px-6 py-2 font-xl sm:mb-0">Send Message</button>
                                     </div>
                                 </form>
                             </div>
