@@ -9,10 +9,10 @@ const ProductCard = ({ img, title, description }) => {
           <p className="w-full text-center text-sm font-semibold uppercase">Add To Cart</p>
         </div> */}
       </div>
-      <h2 className=" xl:text-xl text-base  font-medium  ">
+      <h2 className=" xl:text-xl text-base  font-medium md:w-[15rem] w-[8rem] ">
         {title}
       </h2>
-      <h2 className=" text-[#6d6a6a] text-xs	    ">
+      <h2 className=" text-[#6d6a6a] text-xs md:w-[15rem]	 w-[8rem]   ">
         {description}
       </h2>
       {/* <span className=" xl:text-base text-sm text-primaryColor">FROM</span> */}
