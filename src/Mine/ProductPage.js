@@ -16,8 +16,6 @@ const products = {
         { name: 'Product 3', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/3e362f715486bfb73a4ada8ce90ca733.jpg?updatedAt=1711595037890', description: 'description' },
         { name: 'Product 4', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/3e362f715486bfb73a4ada8ce90ca733.jpg?updatedAt=1711595037890', description: 'description' },
         { name: 'Product 5', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/3e362f715486bfb73a4ada8ce90ca733.jpg?updatedAt=1711595037890', description: 'description' },
-        { src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/More%20(1).png?updatedAt=1711750339410' }
-
     ],
     necklaces: [
         { name: 'Necklace ', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/4bd4b6d1b929fcddd6d87bede153a14f.jpg?updatedAt=1711595038133', description: 'description' },
@@ -85,13 +83,23 @@ const ProductPage = () => {
                 </div>
 
                 {/* CARDS SECTION */}
-                <div className="  w-full md:justify-center justify-center     ">
+                <div className="  w-full md:justify-center justify-center   ">
                     <div className="md:grid md:grid-cols-4  gap-[0rem] grid  grid-cols-2  md:gap-2">
 
                         {productList.map((product, index) => (
                             <ProductCard key={index} title={product.name} img={product.src} description={product.description} />
-                        ))}
+                        ))
+                        }
+                        <div className="max-w-xs md:h-[15rem] mb-5 md:w-[20rem] w-10rem flex mt-1 rounded overflow-hidden shadow-md transition-transform duration-300 ease-in-out transform hover:scale-105">
+                            <img className="w-[10rem] md:w-[20rem]" src='https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/More%20(1).png?updatedAt=1711750339410' alt="Sunset in the mountains" />
+                            <div className="md:px-6 md:py-4 text-center">
+                                <h2 className="absolute bottom-0 md:left-[8rem] left-[4rem] right-0 text-center xl:text-3xl md:text-2xl tracking-wide pb-4 text-white transition-all duration-300 ease-in-out ">
+                                    <img className="md:h-[3rem] h-[2rem] animate-bounce" src="https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/arrow-right.png?updatedAt=1711839207217"></img>
+                                </h2>
+                            </div>
+                        </div>
                     </div>
+
                 </div>
             </div>
             <Footer />

@@ -160,7 +160,7 @@ const Footer = () => {
         <div className='flex flex-col gap-3 text-center '>
           <hr className=' w-full text-[#707070]' />
           <div className=' pl-10'>
-            <h3 className=' capitalize text-lg text-black'>designed by <a href='https://www.webcraftio.com/'> WebCraftio</a></h3>
+            <h3 className=' capitalize text-lg text-black'>designed by <a href='https://www.webcraftio.com/'><span className='text-[#a8633b]'> WebCraftio</span></a></h3>
           </div>
 
         </div>
