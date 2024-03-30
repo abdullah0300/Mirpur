@@ -9,12 +9,14 @@ import Earrings from "../assets/images/collections/earings.jpg";
 
 const products = {
     bridal: [
-        { name: 'New Bridal', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/3e362f715486bfb73a4ada8ce90ca733.jpg?updatedAt=1711595037890', description: 'description' },
+        {
+            name: 'RITUAL NECKLACE', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/3e362f715486bfb73a4ada8ce90ca733.jpg?updatedAt=1711595037890', description: 'Unleash your inner magic with the Ritual Necklace by Mirpur Jewellers Derby. This quirky piece will add a touch of playfulness to any outfit.'
+        },
         { name: 'Product 2', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/3e362f715486bfb73a4ada8ce90ca733.jpg?updatedAt=1711595037890', description: 'description' },
         { name: 'Product 3', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/3e362f715486bfb73a4ada8ce90ca733.jpg?updatedAt=1711595037890', description: 'description' },
         { name: 'Product 4', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/3e362f715486bfb73a4ada8ce90ca733.jpg?updatedAt=1711595037890', description: 'description' },
         { name: 'Product 5', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/3e362f715486bfb73a4ada8ce90ca733.jpg?updatedAt=1711595037890', description: 'description' },
-        { src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/More%20(1).png?updatedAt=1711750339410', description: 'description' }
+        { src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/More%20(1).png?updatedAt=1711750339410' }
 
     ],
     necklaces: [

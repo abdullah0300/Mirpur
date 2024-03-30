@@ -12,7 +12,7 @@ const ProductCard = ({ img, title, description }) => {
       <h2 className=" xl:text-xl text-base  font-medium  ">
         {title}
       </h2>
-      <h2 className=" xl:text-xl text-base  font-medium  ">
+      <h2 className=" text-[#6d6a6a] text-xs	    ">
         {description}
       </h2>
       {/* <span className=" xl:text-base text-sm text-primaryColor">FROM</span> */}
