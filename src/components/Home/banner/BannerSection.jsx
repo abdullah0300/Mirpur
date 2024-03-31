@@ -25,7 +25,7 @@ const BannerSection = () => {
           </span>
         </button></Link>
       </div>
-      <div className=" md:w-1/2  w-[20rem] md:mr-10 md:h-[600px] md:-mt-[5rem] md:h-66 h-[15rem] md:right-0 justify-center  right-[15%] bannerImg flex transition-transform duration-300 ease-in-out transform hover:scale-105">
+      <div className=" md:w-1/2  w-[20rem] md:mr-10 md:h-[600px] md:-mt-[5rem] -mt-[3rem] md:h-66 h-[15rem] md:right-0 justify-center  right-[15%] bannerImg flex transition-transform duration-300 ease-in-out transform hover:scale-105">
         <video autoPlay muted loop >
           <source src="https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/WhatsApp%20Video%202024-03-22%20at%2018.50.10_89636daf.mp4?updatedAt=1711120396635" type="video/mp4" className="" />
           Your browser does not support the video tag.
