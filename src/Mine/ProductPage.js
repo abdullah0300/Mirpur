@@ -90,10 +90,10 @@ const ProductPage = () => {
                         }
                         <a href="/Contact" >
                             <div className="max-w-xs md:h-[15rem] mb-5 md:w-[20rem] w-10rem flex mt-1 rounded overflow-hidden shadow-md transition-transform duration-300 ease-in-out transform hover:scale-105">
-                                <img className="w-[10rem] md:w-[20rem]" src='https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/More%20(1).png?updatedAt=1711750339410' alt="Sunset in the mountains" />
+                                <img className="w-[10rem] md:w-[20rem]" src='https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/More%20(3).png?updatedAt=1711850224458' alt="Sunset in the mountains" />
                                 <div className="md:px-6 md:py-4 text-center">
-                                    <h2 className="absolute bottom-0 md:left-[8rem] left-[4rem] right-0 text-center xl:text-3xl md:text-2xl tracking-wide pb-4 text-white transition-all duration-300 ease-in-out ">
-                                        <img className="md:h-[3rem] h-[2rem] animate-bounce" src="https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/arrow-right.png?updatedAt=1711839207217"></img>
+                                    <h2 className="absolute bottom-0 md:left-[7rem] left-[4rem] right-0 text-center xl:text-3xl md:text-2xl tracking-wide pb-4 text-white transition-all duration-300 ease-in-out ">
+                                        <img className="md:h-[3rem] h-[2rem] animate-bounce" src="https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/arrow-right%20(1).png?updatedAt=1711850321170"></img>
                                     </h2>
                                 </div>
                             </div>
