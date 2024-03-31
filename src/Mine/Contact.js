@@ -1,35 +1,71 @@
-import React from "react";
+import React, { useState } from "react";
 import "./contact.css";
 import Navbar from "../components/shared/Navbar";
 import Footer from "../components/shared/Footer";
-const Contact = ({ }) => {
-    return (
 
+const Contact = () => {
+    const [formData, setFormData] = useState({
+        name: '',
+        email: '',
+        message: ''
+    });
+
+    const [isSubmitting, setIsSubmitting] = useState(false);
+    const [submissionSuccess, setSubmissionSuccess] = useState(false);
+
+    const handleChange = (e) => {
+        const { name, value } = e.target;
+        setFormData(prevState => ({
+            ...prevState,
+            [name]: value
+        }));
+    };
+
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        setIsSubmitting(true);
+
+        try {
+            const response = await fetch('https://formsubmit.co/aslamabdullah724@gmail.com', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(formData)
+            });
+            const data = await response.json();
+            console.log(data); // Handle success or error response
+            setSubmissionSuccess(true);
+        } catch (error) {
+            console.error('Error:', error);
+            // Handle error
+        } finally {
+            setIsSubmitting(false);
+        }
+    };
+
+    return (
         <div>
             <Navbar />
-            <section class=" bg-[#ffffff]" id="contact">
+            <section className="bg-[#ffffff]" id="contact">
                 <div className="h-[4rem] md:h-[0rem]"></div>
                 <img src='https://ik.imagekit.io/mctozv7td/meena/2.jpg?updatedAt=1711471154963' alt="Hero Image" width="1600" height="900" className="" />
 
-                <div class="mx-auto max-w-7xl px-4 py-16  sm:px-6 lg:px-8 lg:py-20">
-                    <div class="mb-4">
-                        <div class="mb-6 max-w-3xl text-center sm:text-center md:mx-auto md:mb-12">
-                            <p class="text-base font-semibold uppercase tracking-wide text-[#b1704b] md:mt-0    dark:text-[#b1704b] ">
+                <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
+                    <div className="mb-4">
+                        <div className="mb-6 max-w-3xl text-center sm:text-center md:mx-auto md:mb-12">
+                            <p className="text-base font-semibold uppercase tracking-wide text-[#b1704b] md:mt-0 dark:text-[#b1704b] ">
                                 Contact
                             </p>
-                            <h2
-                                class="font-heading mb-4 font-bold tracking-tight text-[#b1704b]  dark:text-[#b1704b]  text-3xl sm:text-5xl">
+                            <h2 className="font-heading mb-4 font-bold tracking-tight text-[#b1704b] dark:text-[#b1704b] text-3xl sm:text-5xl">
                                 Get in Touch
                             </h2>
-                            {/* <p class="mx-auto mt-4 max-w-3xl text-xl text-black dark:text-black">In hac habitasse platea */}
-                            {/* dictumst */}
-                            {/* </p> */}
                         </div>
                     </div>
-                    <div class="flex items-stretch justify-center">
-                        <div class="grid md:grid-cols-2">
-                            <div class="h-full pr-6">
-                                <p class="mt-3 mb-12 text-lg text-black dark:text-black">
+                    <div className="flex items-stretch justify-center">
+                        <div className="grid md:grid-cols-2">
+                            <div className="h-full pr-6">
+                                <p className="mt-3 mb-12 text-lg text-black dark:text-black">
                                     <span className="font-semibold md:text-2xl text-xl  text-[#b1704b]">Mirpur Jewellers Derby</span>, we merge heritage with contemporary craftsmanship, offering timeless pieces that resonate with elegance and sophistication. Discover our curated collection, where every creation embodies the essence of beauty and tradition.
                                 </p>
                                 <ul class="mb-6 md:mb-0">
@@ -88,24 +124,30 @@ const Contact = ({ }) => {
                                     </li>
                                 </ul>
                             </div>
-                            <div class="card h-fit max-w-6xl md:mt-5 p-5 md:p-10" id="form">
-                                <h2 class="mb-3 text-2xl font-bold dark:text-grey">Ready to Get Started?</h2>
-                                <form id="contactForm">
-                                    <div class="mb-3">
-                                        <div class="mx-0 mb-1 sm:mb-4">
-                                            <div class="mx-0 mb-1 sm:mb-4">
-                                                <label for="name" class="pb-1 text-xs uppercase tracking-wider"></label><input type="text" id="name" autocomplete="given-name" placeholder="Your name" class="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-sm dark:text-gray-300 sm:mb-0" name="name" />
+                            <div className="card h-fit max-w-6xl md:mt-5 p-5 md:p-10" id="form">
+                                <h2 className="mb-3 text-2xl font-bold dark:text-grey">Ready to Get Started?</h2>
+                                <form id="contactForm" onSubmit={handleSubmit}>
+                                    <div className="mb-3">
+                                        <div className="mx-0 mb-1 sm:mb-4">
+                                            <div className="mx-0 mb-1 sm:mb-4">
+                                                <label htmlFor="name" className="pb-1 text-xs uppercase tracking-wider"></label>
+                                                <input type="text" id="name" autoComplete="given-name" placeholder="Your name" className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-sm dark:text-gray-300 sm:mb-0" name="name" value={formData.name} onChange={handleChange} />
                                             </div>
-                                            <div class="mx-0 mb-1 sm:mb-4">
-                                                <label for="email" class="pb-1 text-xs uppercase tracking-wider"></label><input type="email" id="email" autocomplete="email" placeholder="Your email address" class="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-sm dark:text-gray-300 sm:mb-0" name="email" />
+                                            <div className="mx-0 mb-1 sm:mb-4">
+                                                <label htmlFor="email" className="pb-1 text-xs uppercase tracking-wider"></label>
+                                                <input type="email" id="email" autoComplete="email" placeholder="Your email address" className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-sm dark:text-gray-300 sm:mb-0" name="email" value={formData.email} onChange={handleChange} />
                                             </div>
                                         </div>
-                                        <div class="mx-0 mb-1 sm:mb-4">
-                                            <label for="textarea" class="pb-1 text-xs uppercase tracking-wider"></label><textarea id="textarea" name="textarea" cols="30" rows="5" placeholder="Write your message..." class="mb-1 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-sm dark:text-gray-300 sm:mb-0"></textarea>
+                                        <div className="mx-0 mb-1 sm:mb-4">
+                                            <label htmlFor="textarea" className="pb-1 text-xs uppercase tracking-wider"></label>
+                                            <textarea id="textarea" name="message" cols="30" rows="5" placeholder="Write your message..." className="mb-1 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-sm dark:text-gray-300 sm:mb-0" value={formData.message} onChange={handleChange}></textarea>
                                         </div>
                                     </div>
-                                    <div class="text-center">
-                                        <button type="submit" class="w-full bg-light text-black px-6 py-2 font-xl sm:mb-0">Send Message</button>
+                                    <div className="text-center">
+                                        <button type="submit" disabled={isSubmitting} className="w-full bg-light text-black px-6 py-2 font-xl sm:mb-0">
+                                            {isSubmitting ? "Submitting..." : "Send Message"}
+                                        </button>
+                                        {submissionSuccess && <p className="text-green-500 mt-2">Thank you for your message!</p>}
                                     </div>
                                 </form>
                             </div>
@@ -113,9 +155,6 @@ const Contact = ({ }) => {
                     </div>
                 </div>
             </section>
-
-
-
             <section class="map_sec mb-4 ">
                 <div class="container">
                     <div class="row">
@@ -129,9 +168,6 @@ const Contact = ({ }) => {
                     </div>
                 </div>
             </section>
-
-
-
             <Footer />
         </div>
     );
