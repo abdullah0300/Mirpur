@@ -6,6 +6,7 @@ import Navbar from "../components/shared/Navbar";
 import Footer from "../components/shared/Footer";
 import Bangles from "../assets/images/collections/bangles.jpg";
 import Earrings from "../assets/images/collections/earings.jpg";
+import { Link } from "react-router-dom";
 
 const products = {
     bridal: [
@@ -22,8 +23,7 @@ const products = {
         { name: 'Product 2', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/4bd4b6d1b929fcddd6d87bede153a14f.jpg?updatedAt=1711595038133', description: 'description' },
         { name: 'Product 3', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/4bd4b6d1b929fcddd6d87bede153a14f.jpg?updatedAt=1711595038133', description: 'description' },
         { name: 'Product 4', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/4bd4b6d1b929fcddd6d87bede153a14f.jpg?updatedAt=1711595038133', description: 'description' },
-        { name: 'Product 5', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/4bd4b6d1b929fcddd6d87bede153a14f.jpg?updatedAt=1711595038133', description: 'description' },
-        { src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/More%20(1).png?updatedAt=1711750339410' }
+        { name: 'Product 5', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/4bd4b6d1b929fcddd6d87bede153a14f.jpg?updatedAt=1711595038133', description: 'description' }
 
     ],
     bangles: [
@@ -31,8 +31,7 @@ const products = {
         { name: 'Product 2', src: Bangles, description: 'description' },
         { name: 'Product 3', src: Bangles, description: 'description' },
         { name: 'Product 4', src: Bangles, description: 'description' },
-        { name: 'Product 5', src: Bangles, description: 'description' },
-        { src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/More%20(1).png?updatedAt=1711750339410' }
+        { name: 'Product 5', src: Bangles, description: 'description' }
 
     ],
     earings: [
@@ -40,8 +39,7 @@ const products = {
         { name: 'Product 2', src: Earrings, description: 'description' },
         { name: 'Product 3', src: Earrings, description: 'description' },
         { name: 'Product 4', src: Earrings, description: 'description' },
-        { name: 'Product 5', src: Earrings, description: 'description' },
-        { src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/More%20(1).png?updatedAt=1711750339410' }
+        { name: 'Product 5', src: Earrings, description: 'description' }
 
     ]
 };
@@ -90,14 +88,16 @@ const ProductPage = () => {
                             <ProductCard key={index} title={product.name} img={product.src} description={product.description} />
                         ))
                         }
-                        <div className="max-w-xs md:h-[15rem] mb-5 md:w-[20rem] w-10rem flex mt-1 rounded overflow-hidden shadow-md transition-transform duration-300 ease-in-out transform hover:scale-105">
-                            <img className="w-[10rem] md:w-[20rem]" src='https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/More%20(1).png?updatedAt=1711750339410' alt="Sunset in the mountains" />
-                            <div className="md:px-6 md:py-4 text-center">
-                                <h2 className="absolute bottom-0 md:left-[8rem] left-[4rem] right-0 text-center xl:text-3xl md:text-2xl tracking-wide pb-4 text-white transition-all duration-300 ease-in-out ">
-                                    <img className="md:h-[3rem] h-[2rem] animate-bounce" src="https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/arrow-right.png?updatedAt=1711839207217"></img>
-                                </h2>
+                        <a href="/Contact" >
+                            <div className="max-w-xs md:h-[15rem] mb-5 md:w-[20rem] w-10rem flex mt-1 rounded overflow-hidden shadow-md transition-transform duration-300 ease-in-out transform hover:scale-105">
+                                <img className="w-[10rem] md:w-[20rem]" src='https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/More%20(1).png?updatedAt=1711750339410' alt="Sunset in the mountains" />
+                                <div className="md:px-6 md:py-4 text-center">
+                                    <h2 className="absolute bottom-0 md:left-[8rem] left-[4rem] right-0 text-center xl:text-3xl md:text-2xl tracking-wide pb-4 text-white transition-all duration-300 ease-in-out ">
+                                        <img className="md:h-[3rem] h-[2rem] animate-bounce" src="https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/arrow-right.png?updatedAt=1711839207217"></img>
+                                    </h2>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
 
                 </div>

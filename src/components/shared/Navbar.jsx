@@ -42,9 +42,9 @@ const Navbar = () => {
                     </li>
                   </Link>
                 ))}
-                <Link to="./Contact">  <li className="xl:text-lg md:text-base cursor-pointer transition-all duration-200 ease-in-out transform-gpu borderNavlinks">
+                <a href='/Contact'>  <li className="xl:text-lg md:text-base cursor-pointer transition-all duration-200 ease-in-out transform-gpu borderNavlinks">
                   Contact Us
-                </li></Link>
+                </li></a>
               </div>
               {/* <div className="search-div flex gap-2 md:flex">
                 <div className="searchLogo">
@@ -93,10 +93,10 @@ const Navbar = () => {
                 </p>
               </Link>
             ))}
-            <Link to="./Contact"> <p className="xl:text-lg md:text-base cursor-pointer transition-all duration-200 ease-in-out transform-gpu">
+            <a href='/Contact'> <p className="xl:text-lg md:text-base cursor-pointer transition-all duration-200 ease-in-out transform-gpu">
               Contact Us
             </p>
-            </Link>
+            </a>
           </div>
         </nav>
       </header>

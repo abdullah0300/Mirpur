@@ -135,7 +135,7 @@ const Footer = () => {
               <hr className='w-12 my-1 rounded-lg' style={{ border: "3px solid #BD9229" }} />
             </div>
             <div className=' flex flex-col gap-3 capitalize text-black'>
-              <Link to='./Contact'> <p>contact us</p></Link>
+              <a href='/Contact'> <p>contact us</p></a>
               <Link to='./CollectionPage'><p>our collection</p></Link>
             </div>
           </div>
