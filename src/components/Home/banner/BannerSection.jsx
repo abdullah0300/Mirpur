@@ -15,9 +15,9 @@ const BannerSection = () => {
         <p className=" text-[#636161] xl:text-lg md:text-base text-xs md:w-[96%] md:mb-0 mb-4">
           At Mirpur Jewellers Derby, we celebrate the fusion of tradition and craftsmanship, offering a captivating array
           of timeless jewellery pieces. From stunning necklaces to intricately crafted earrings and bangles, each creation
-          is a testament to our dedication to excellence and sophistication. Discover the perfect blend of tradition
-          and modernity wi  th Mirpur Jewellers Derby,
-          where every piece is imbued with beauty, grace, and unparalleled craftsmanship.
+          is a testament to our dedication to excellence and sophistication.<span className="hidden"> Discover the perfect blend of tradition
+            and modernity wi  th Mirpur Jewellers Derby,
+            where every piece is imbued with beauty, grace, and unparalleled craftsmanship.</span>
         </p>
         <Link to='./CollectionPage'><button className=' text-center w-[8rem] bg-[#f8f9fa] px-[20px] py-[10px] text-black text-xl hover:text-[#fff] hover:bg-white transition-all duration-300 ease-in-out transform-gpu hover:scale-105 group'>
           <span className='transform translate-y-[8] transition duration-300 ease-in-out group-hover:translate-y-[200px]'>
