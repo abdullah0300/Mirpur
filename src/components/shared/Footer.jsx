@@ -82,7 +82,6 @@ const Footer = () => {
             }
 
             <div className='  justify-between text-black'>
-              <p className=' capitalize text-[19px]'>about us</p>
               <Link to='./Contact'> <p className=' capitalize text-[19px] mt-2'>contact us</p></Link>
 
             </div>

@@ -47,7 +47,7 @@ const Contact = () => {
     return (
         <div>
             <Navbar />
-            <section className="bg-[#ffffff]" id="contact">
+            <section className="bg-[#ffffff] p-2" id="contact">
                 <div className="h-[4rem] md:h-[0rem]"></div>
                 <img src='https://ik.imagekit.io/mctozv7td/meena/2.jpg?updatedAt=1711471154963' alt="Hero Image" width="1600" height="900" className="" />
 

@@ -88,7 +88,7 @@ const ProductPage = () => {
                             <ProductCard key={index} title={product.name} img={product.src} description={product.description} />
                         ))
                         }
-                        <a href="/Contact" >
+                        <a href="https://wa.me/+447445313937?text=Hello%20there!" target="_blank">
                             <div className="max-w-xs md:h-[15rem] mb-5 md:w-[20rem] w-10rem flex mt-1 rounded overflow-hidden shadow-md transition-transform duration-300 ease-in-out transform hover:scale-105">
                                 <img className="w-[10rem] md:w-[20rem]" src='https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/More%20(3).png?updatedAt=1711850224458' alt="Sunset in the mountains" />
                                 <div className="md:px-6 md:py-4 text-center">
