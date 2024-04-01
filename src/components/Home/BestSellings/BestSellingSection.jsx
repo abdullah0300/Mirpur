@@ -7,7 +7,7 @@ import MainBtn from "../../shared/MainBtn";
 const BestSellingSection = () => {
   return (
     <>
-      <div className=" flex flex-col text-left  mt-[5rem] gap-8 md:px-[60px] px-[16px] my-10">
+      <div className=" flex flex-col text-left  mt-[0rem] gap-8 md:px-[60px] px-[16px] my-10">
         {/* HEADINGS SECTION */}
         <div className=" flex flex-col gap-1 text-left">
 
