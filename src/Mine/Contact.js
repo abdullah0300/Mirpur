@@ -47,11 +47,11 @@ const Contact = () => {
     return (
         <div>
             <Navbar />
-            <section className="bg-[#ffffff] p-4" id="contact">
+            <section className="bg-[#ffffff] " id="contact">
                 <div className="h-[4rem] md:h-[0rem]"></div>
                 <img src='https://ik.imagekit.io/mctozv7td/meena/2.jpg?updatedAt=1711471154963' alt="Hero Image" width="1600" height="900" className="" />
 
-                <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
+                <div className="mx-auto  max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
                     <div className="mb-4">
                         <div className="mb-6 max-w-3xl text-center sm:text-center md:mx-auto md:mb-12">
                             <p className="text-base font-semibold uppercase tracking-wide text-[#b1704b] md:mt-0 dark:text-[#b1704b] ">
@@ -66,7 +66,7 @@ const Contact = () => {
                         <div className="grid md:grid-cols-2">
                             <div className="h-full pr-6">
                                 <p className="mt-3 mb-12 text-lg text-black dark:text-black">
-                                    <span className="font-semibold md:text-2xl text-xl  text-[#b1704b]">Mirpur Jewellers Derby</span>, we merge heritage with contemporary craftsmanship, offering timeless pieces that resonate with elegance and sophistication. Discover our curated collection, where every creation embodies the essence of beauty and tradition.
+                                    <span className="font-semibold md:text-2xl text-xl text-center items-center  text-[#b1704b]">Mirpur Jewellers Derby</span>, we merge heritage with contemporary craftsmanship, offering timeless pieces that resonate with elegance and sophistication. Discover our curated collection, where every creation embodies the essence of beauty and tradition.
                                 </p>
                                 <ul class="mb-6 md:mb-0">
                                     <li class="flex">

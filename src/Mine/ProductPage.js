@@ -104,10 +104,12 @@ const ProductPage = () => {
                         ))
                         }
                         <a href="https://wa.me/+447445313937?text=Hello%20there!" target="_blank">
-                            <div className="max-w-xs md:h-[15rem] mb-5 md:w-[20rem] w-10rem flex mt-1 rounded overflow-hidden shadow-md transition-transform duration-300 ease-in-out transform hover:scale-105">
-                                <img className="w-[10rem] md:w-[20rem]" src='https://ik.imagekit.io/mctozv7td/meena/More%20(4).png?updatedAt=1712006779491' alt="Sunset in the mountains" />
+                            <div className="mb-5 flex flex-col gap-2 text-left md:w-full w-60 xl:px-4 md:px-3 px-3 transition-transform duration-300 ease-in-out transform hover:scale-105">
+                                <div className=" sellingCard rounded relative">
+                                    <img className="object-cover rounded md:w-[15rem] w-[8rem]  md:h-60 h-[8rem]" src='https://ik.imagekit.io/mctozv7td/meena/More%20(4).png?updatedAt=1712006779491' alt="Sunset in the mountains" />
+                                </div>
                                 <div className="md:px-6 md:py-4 text-center">
-                                    <h2 className="absolute bottom-0 md:left-[7rem] left-[4rem] right-0 text-center xl:text-3xl md:text-2xl tracking-wide pb-4 text-white transition-all duration-300 ease-in-out ">
+                                    <h2 className="absolute bottom-0 md:left-[7rem] left-[4rem] right-0 text-center xl:text-3xl md:text-2xl tracking-wide md:pb-5 pb-[1rem] text-white transition-all duration-300 ease-in-out ">
                                         <img className="md:h-[3rem] h-[2rem] animate-bounce" src="https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/arrow-right%20(1).png?updatedAt=1711850321170"></img>
                                     </h2>
                                 </div>
