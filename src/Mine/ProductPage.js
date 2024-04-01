@@ -9,15 +9,6 @@ import Earrings from "../assets/images/collections/earings.jpg";
 import { Link } from "react-router-dom";
 
 const products = {
-    bridal: [
-        {
-            name: 'RITUAL NECKLACE', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/3e362f715486bfb73a4ada8ce90ca733.jpg?updatedAt=1711595037890', description: 'Unleash your inner magic with the Ritual Necklace by Mirpur Jewellers Derby. This quirky piece will add a touch of playfulness to any outfit.'
-        },
-        { name: 'Product 2', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/3e362f715486bfb73a4ada8ce90ca733.jpg?updatedAt=1711595037890', description: 'description' },
-        { name: 'Product 3', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/3e362f715486bfb73a4ada8ce90ca733.jpg?updatedAt=1711595037890', description: 'description' },
-        { name: 'Product 4', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/3e362f715486bfb73a4ada8ce90ca733.jpg?updatedAt=1711595037890', description: 'description' },
-        { name: 'Product 5', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/3e362f715486bfb73a4ada8ce90ca733.jpg?updatedAt=1711595037890', description: 'description' },
-    ],
     necklaces: [
         { name: 'Necklace ', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/4bd4b6d1b929fcddd6d87bede153a14f.jpg?updatedAt=1711595038133', description: 'description' },
         { name: 'Product 2', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/4bd4b6d1b929fcddd6d87bede153a14f.jpg?updatedAt=1711595038133', description: 'description' },
@@ -27,14 +18,38 @@ const products = {
 
     ],
     bangles: [
-        { name: 'Bangles  ', src: Bangles, description: 'description' },
-        { name: 'Product 2', src: Bangles, description: 'description' },
-        { name: 'Product 3', src: Bangles, description: 'description' },
-        { name: 'Product 4', src: Bangles, description: 'description' },
-        { name: 'Product 5', src: Bangles, description: 'description' }
+        { name: 'Bangles  ', src: 'https://ik.imagekit.io/mctozv7td/meena/IMG-20240401-WA0028.jpg?updatedAt=1712003090570', description: 'description' },
+        { name: 'Product 2', src: 'https://ik.imagekit.io/mctozv7td/meena/IMG-20240401-WA0027.jpg?updatedAt=1712003090494', description: 'description' },
+        { name: 'Product 3', src: 'https://ik.imagekit.io/mctozv7td/meena/IMG-20240401-WA0031.jpg?updatedAt=1712003090474', description: 'description' },
+        { name: 'Product 4', src: 'https://ik.imagekit.io/mctozv7td/meena/IMG-20240401-WA0030.jpg?updatedAt=1712003090418', description: 'description' },
+        { name: 'Product 5', src: 'https://ik.imagekit.io/mctozv7td/meena/IMG-20240401-WA0024.jpg?updatedAt=1712003087576', description: 'description' },
+        { name: 'Product 5', src: 'https://ik.imagekit.io/mctozv7td/meena/IMG-20240401-WA0025.jpg?updatedAt=1712003087595', description: 'description' },
+        { name: 'Product 5', src: 'https://ik.imagekit.io/mctozv7td/meena/IMG-20240401-WA0022.jpg?updatedAt=1712003087066', description: 'description' },
+        { name: 'Product 5', src: 'https://ik.imagekit.io/mctozv7td/meena/IMG-20240401-WA0026.jpg?updatedAt=1712003086221', description: 'description' },
+        { name: 'Product 5', src: 'https://ik.imagekit.io/mctozv7td/meena/IMG-20240401-WA0023.jpg?updatedAt=1712003086100', description: 'description' },
+        { name: 'Product 5', src: 'https://ik.imagekit.io/mctozv7td/meena/IMG-20240401-WA0017.jpg?updatedAt=1712003085929', description: 'description' }
+
+
 
     ],
-    earings: [
+    rings: [
+        {
+            name: 'RITUAL NECKLACE', src: 'https://ik.imagekit.io/mctozv7td/meena/IMG-20240401-WA0021.jpg?updatedAt=1712003086044', description: 'Unleash your inner magic with the Ritual Necklace by Mirpur Jewellers Derby. This quirky piece will add a touch of playfulness to any outfit.'
+        },
+        { name: 'Product 2', src: 'https://ik.imagekit.io/mctozv7td/meena/IMG-20240401-WA0020.jpg?updatedAt=1712003086326', description: 'description' },
+        { name: 'Product 3', src: 'https://ik.imagekit.io/mctozv7td/meena/IMG-20240401-WA0019.jpg?updatedAt=1712003085908', description: 'description' },
+        { name: 'Product 4', src: 'https://ik.imagekit.io/mctozv7td/meena/IMG-20240401-WA0013.jpg?updatedAt=1712003083025', description: 'description' },
+        { name: 'Product 5', src: 'https://ik.imagekit.io/mctozv7td/meena/IMG-20240401-WA0009.jpg?updatedAt=1712003083028', description: 'description' },
+        { name: 'Product 5', src: 'https://ik.imagekit.io/mctozv7td/meena/IMG-20240401-WA0010.jpg?updatedAt=1712003082961', description: 'description' },
+        { name: 'Product 5', src: 'https://ik.imagekit.io/mctozv7td/meena/IMG-20240401-WA0015.jpg?updatedAt=1712003083020', description: 'description' },
+        { name: 'Product 5', src: 'https://ik.imagekit.io/mctozv7td/meena/IMG-20240401-WA0014.jpg?updatedAt=1712003082960', description: 'description' },
+        { name: 'Product 5', src: 'https://ik.imagekit.io/mctozv7td/meena/IMG-20240401-WA0011.jpg?updatedAt=1712003082838', description: 'description' },
+        { name: 'Product 6', src: 'https://ik.imagekit.io/mctozv7td/meena/IMG-20240401-WA0008.jpg?updatedAt=1712003082905', description: 'description' },
+        { name: 'Product 6', src: 'https://ik.imagekit.io/mctozv7td/meena/IMG-20240401-WA0007.jpg?updatedAt=1712003082852', description: 'description' },
+        { name: 'Product 6', src: 'https://ik.imagekit.io/mctozv7td/meena/IMG-20240401-WA0012.jpg?updatedAt=1712003082828', description: 'description' },
+
+    ],
+    chainsbraclets: [
         { name: 'Earrings ', src: Earrings, description: 'description' },
         { name: 'Product 2', src: Earrings, description: 'description' },
         { name: 'Product 3', src: Earrings, description: 'description' },
@@ -47,17 +62,17 @@ const ProductPage = () => {
     const { categoryId } = useParams();
     const productList = products[categoryId];
     const categoryDescriptions = {
-        bridal: "Welcome to Mirpur Jewellers Derby, where timeless elegance meets modern sophistication in our exquisite bridal jewelry collection. From dazzling diamond sets to intricately crafted gold and pearl designs, each piece is meticulously curated to enhance the beauty of every bride on her special day. ",
-        necklaces: "Elevate your elegance with our exquisite necklaces, curated with finesse, only at Mirpur Jewellers Derby. Adorn yourself with timeless beauty and sophistication.",
-        bangles: "Indulge in the allure of tradition and modernity with our stunning bangles, meticulously crafted to grace your wrists. Explore the epitome of craftsmanship at Mirpur Jewellers Derby.",
-        earings: "Elevate your style with our stunning earrings, designed to captivate hearts and turn heads. Explore the epitome of elegance and craftsmanship at Mirpur Jewellers Derby."
+        necklaces: "Our Gold necklaces are stunning pieces of jewellery that adorn the neckline with timeless elegance and sophistication. Crafted from luxurious gold, they come in a myriad of styles, from delicate chains to elaborate pendant designs. Their radiant shine and smooth texture create a captivating allure, making them a versatile accessory suitable for any occasion. Whether worn as a standalone statement piece or layered with other necklaces for a trendy look, gold necklaces effortlessly elevate any ensemble.",
+        bangles: "Gold bangles are exquisite pieces of jewellery that adorn the wrists with timeless beauty and elegance. Crafted from 22 and 24 carat gold, they come in a variety of designs, from simple, sleek styles to intricately detailed patterns. Their smooth, polished surfaces catch the light, creating a captivating shimmer with every movement. Gold bangles are versatile accessories that can be worn alone for a touch of sophistication or stacked with other bangles for a bold, glamorous look.",
+        rings: "Our gold rings are timeless pieces of jewellery that exude elegance and sophistication. Crafted from precious metal,  our rings come in various styles, from classic bands to intricate designs adorned with gemstones. Their lustrous shine and enduring quality make them cherished symbols of love, commitment, and style. Whether worn as engagement rings, wedding bands, or fashion accessories, gold rings are versatile pieces that add a touch of luxury to any ensemble. ",
+        chainsbraclets: "Elevate your style with our stunning earrings, designed to captivate hearts and turn heads. Explore the epitome of elegance and craftsmanship at Mirpur Jewellers Derby."
     };
     const categoryDescription = categoryDescriptions[categoryId];
     const categoryImages = {
-        bridal: 'https://ik.imagekit.io/mctozv7td/meena/1.jpg?updatedAt=1711471154752', // Add your bridal category image source here
         necklaces: 'https://ik.imagekit.io/mctozv7td/meena/2.jpg?updatedAt=1711471154963', // Add your necklaces category image source here
-        bangles: 'https://ik.imagekit.io/mctozv7td/meena/2.jpg?updatedAt=1711471154963', // Add your bangles category image source here
-        earings: 'https://ik.imagekit.io/mctozv7td/meena/2.jpg?updatedAt=1711471154963' // Add your earrings category image source here
+        bangles: 'https://ik.imagekit.io/mctozv7td/meena/Beige%20Aesthetic%20Handmade%20Accessories%20Etsy%20Shop%20Cover.png?updatedAt=1712005371073', // Add your bangles category image source here
+        rings: 'https://ik.imagekit.io/mctozv7td/meena/2.png?updatedAt=1712005592248', // Add your bridal category image source here
+        chainsbraclets: 'https://ik.imagekit.io/mctozv7td/meena/2.jpg?updatedAt=1711471154963' // Add your earrings category image source here
     };
     const categoryImage = categoryImages[categoryId];
 
@@ -90,7 +105,7 @@ const ProductPage = () => {
                         }
                         <a href="https://wa.me/+447445313937?text=Hello%20there!" target="_blank">
                             <div className="max-w-xs md:h-[15rem] mb-5 md:w-[20rem] w-10rem flex mt-1 rounded overflow-hidden shadow-md transition-transform duration-300 ease-in-out transform hover:scale-105">
-                                <img className="w-[10rem] md:w-[20rem]" src='https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/More%20(3).png?updatedAt=1711850224458' alt="Sunset in the mountains" />
+                                <img className="w-[10rem] md:w-[20rem]" src='https://ik.imagekit.io/mctozv7td/meena/More%20(4).png?updatedAt=1712006779491' alt="Sunset in the mountains" />
                                 <div className="md:px-6 md:py-4 text-center">
                                     <h2 className="absolute bottom-0 md:left-[7rem] left-[4rem] right-0 text-center xl:text-3xl md:text-2xl tracking-wide pb-4 text-white transition-all duration-300 ease-in-out ">
                                         <img className="md:h-[3rem] h-[2rem] animate-bounce" src="https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/arrow-right%20(1).png?updatedAt=1711850321170"></img>

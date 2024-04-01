@@ -7,10 +7,10 @@ import Earrings from "../assets/images/collections/earings.jpg";
 import { Link } from "react-router-dom";
 
 const categories = [
-    { name: 'Bridal', id: 'bridal', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/signal-2024-03-28-081020_005.jpeg?updatedAt=1711595532330' },
     { name: 'Necklaces', id: 'necklaces', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/c37564f44c5a7bd589fe88a05fb6830c.jpg?updatedAt=1711595038162' },
-    { name: 'Earings', id: 'earings', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/signal-2024-03-28-081020_004.jpeg?updatedAt=1711595534488' },
     { name: 'Bangles', id: 'bangles', src: Bangles },
+    { name: 'Rings', id: 'rings', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/signal-2024-03-28-081020_005.jpeg?updatedAt=1711595532330' },
+    { name: 'Chains/Braclets', id: 'chainsbraclets', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/signal-2024-03-28-081020_004.jpeg?updatedAt=1711595534488' },
 ];
 
 const CollectionPage = () => {
