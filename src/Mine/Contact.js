@@ -47,7 +47,7 @@ const Contact = () => {
     return (
         <div>
             <Navbar />
-            <div className="pl-5">
+            <div className="">
                 <section className="bg-[#ffffff] " id="contact">
                     <div className="h-[4rem] md:h-[0rem]"></div>
                     <img src='https://ik.imagekit.io/mctozv7td/meena/2.jpg?updatedAt=1711471154963' alt="Hero Image" width="1600" height="900" className="" />
@@ -66,10 +66,10 @@ const Contact = () => {
                         <div className="flex items-stretch justify-center">
                             <div className="grid md:grid-cols-2">
                                 <div className="h-full pr-6">
-                                    <p className="mt-3 mb-12 text-lg text-black dark:text-black">
+                                    <p className="mt-3 mb-12 text-lg text-black dark:text-black md:w-[30rem] w-[15rem] ml-[3rem]">
                                         <span className="font-semibold md:text-2xl text-xl text-center items-center  text-[#b1704b]">Mirpur Jewellers Derby</span>, we merge heritage with contemporary craftsmanship, offering timeless pieces that resonate with elegance and sophistication. Discover our curated collection, where every creation embodies the essence of beauty and tradition.
                                     </p>
-                                    <ul class="mb-6 md:mb-0">
+                                    <ul class="mb-6 md:mb-0 ml-[3rem]">
                                         <li class="flex">
                                             <div class="flex h-10 w-10 mt-4 items-center justify-center rounded bg-[#b1704b] text-gray-50">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
