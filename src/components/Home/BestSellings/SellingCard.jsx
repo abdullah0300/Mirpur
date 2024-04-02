@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import ReactImageZoom from "react-image-zoom";
 
 const SellingCard = ({ img, title }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -17,15 +18,17 @@ const SellingCard = ({ img, title }) => {
           className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-75 z-50"
           onClick={toggleModal}
         >
-          <div className="modalContainer relative md:mr-[0rem] mr-[0rem] bg-white rounded-lg">
-            <img src={img} alt="img" className="rounded-lg md:w-[30rem] w-[16rem]  h-[16rem] md:h-[30rem]" />
-            <button
-              className="absolute top-2 right-2 btn-sm btn bg-white text-gray-700"
-              onClick={toggleModal}
-            >
-              Close
-            </button>
-          </div>
+          <ReactImageZoom
+            image={{
+              src: img,
+              alt: title,
+              className: "rounded-lg",
+            }}
+            zoomImage={{
+              src: img,
+              alt: title,
+            }}
+          />
         </div>
       )}
       {/* <h2 className="xl:text-xl text-base font-medium mx-auto text-left">
