@@ -82,7 +82,7 @@ const Footer = () => {
             }
 
             <div className='  justify-between text-black'>
-              <Link to='./Contact'> <p className=' capitalize text-[19px] mt-2'>contact us</p></Link>
+              <a href='/Contact'> <p className=' capitalize text-[19px] mt-2'>contact us</p></a>
 
             </div>
 
@@ -118,8 +118,8 @@ const Footer = () => {
                 <hr className='w-12 my-1 rounded-lg' style={{ border: "3px solid #BD9229" }} />
               </div>
               <div className=' flex flex-col gap-3  text-black'>
-                <p><strong>Phone:</strong> +44 133 2200205</p>
-                <p><strong>E-mail:</strong> support@mirpurjewellersderby.co.uk</p>
+                <p><strong>Phone:</strong> <a href="tel:+441332200205">+44 133 2200205</a></p>
+                <p><strong>E-mail:</strong><a href="mailto:support@mirpurjewellersderby.co.uk"> support@mirpurjewellersderby.co.uk</a></p>
                 <p><strong>Address:</strong> 12 Pear Tree Road, Derby, United Kingdom</p>
 
               </div>
@@ -134,7 +134,7 @@ const Footer = () => {
               <hr className='w-12 my-1 rounded-lg' style={{ border: "3px solid #BD9229" }} />
             </div>
             <div className=' flex flex-col gap-3 capitalize text-black'>
-              <a href='/Contact'> <p>contact us</p></a>
+              <a href='./Contact'> <p>contact us</p></a>
               <Link to='./CollectionPage'><p>our collection</p></Link>
             </div>
           </div>
