@@ -18,11 +18,11 @@ const ProductCard = ({ img, title, description }) => {
         />
         {isModalOpen && (
           <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-75 z-50">
-            <div className="modalContainer relative  bg-white rounded-lg">
+            <div className="modalContainer relative md:mr-[0rem] mr-[4rem] bg-white rounded-lg">
               <img
                 src={img}
                 alt="img"
-                className="object-cover rounded-lg md:w-[30rem] w-[15rem] h-[15rem] md:h-[30rem]"
+                className="object-cover rounded-lg md:w-[30rem] w-[16rem]  h-[16rem] md:h-[30rem]"
               />
               <button
                 className="absolute top-2 right-2 btn-sm btn bg-white text-gray-700"
