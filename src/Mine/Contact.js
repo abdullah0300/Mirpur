@@ -50,14 +50,14 @@ const Contact = () => {
             <div className="">
                 <section className="bg-[#ffffff] " id="contact">
                     <div className="h-[4rem] md:h-[0rem]"></div>
-                    <img src='https://ik.imagekit.io/mctozv7td/meena/2.jpg?updatedAt=1711471154963' alt="Hero Image" width="1600" height="900" className="" />
+                    <img src='https://ik.imagekit.io/mctozv7td/meena/Beige%20Aesthetic%20Handmade%20Accessories%20Etsy%20Shop%20Cover%20(1).png?updatedAt=1712051781033' alt="Hero Image" width="1600" height="900" className="" />
 
                     <div className="mx-auto  max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
                         <div className="mb-4">
                             <div className="mb-6 max-w-3xl text-center sm:text-center md:mx-auto md:mb-12">
-                                <p className="text-base font-semibold uppercase tracking-wide text-[#b1704b] md:mt-0 dark:text-[#b1704b] ">
+                                {/* <p className="text-base font-semibold uppercase tracking-wide text-[#b1704b] md:mt-0 dark:text-[#b1704b] ">
                                     Contact
-                                </p>
+                                </p> */}
                                 <h2 className="font-heading mb-4 font-bold tracking-tight text-[#b1704b] dark:text-[#b1704b] text-3xl sm:text-5xl">
                                     Get in Touch
                                 </h2>
