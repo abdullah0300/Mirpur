@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./contact.css";
 import Navbar from "../components/shared/Navbar";
 import Footer from "../components/shared/Footer";
+import WhatsAppButton from "../Whatsapp";
 
 const Contact = () => {
     const [formData, setFormData] = useState({
@@ -67,7 +68,7 @@ const Contact = () => {
                             <div className="grid md:grid-cols-2">
                                 <div className="h-full pr-6">
                                     <p className="mt-3 mb-12 text-lg text-black dark:text-black md:w-[30rem] w-[15rem] ml-[3rem]">
-                                        <span className="font-semibold md:text-2xl text-xl text-center items-center  text-[#b1704b]">Mirpur Jewellers Derby</span>, we merge heritage with contemporary craftsmanship, offering timeless pieces that resonate with elegance and sophistication. Discover our curated collection, where every creation embodies the essence of beauty and tradition.
+                                        <span className="font-semibold md:text-2xl text-xl text-center items-center  text-[#a58b26]">Mirpur Jewellers Derby</span>, we merge heritage with contemporary craftsmanship, offering timeless pieces that resonate with elegance and sophistication. Discover our curated collection, where every creation embodies the essence of beauty and tradition.
                                     </p>
                                     <ul class="mb-6 md:mb-0 ml-[3rem]">
                                         <li class="flex">
@@ -138,6 +139,19 @@ const Contact = () => {
                                                     <label htmlFor="email" className="pb-1 text-xs uppercase tracking-wider"></label>
                                                     <input type="email" id="email" autoComplete="email" placeholder="Your email address" className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-sm dark:text-gray-300 sm:mb-0" name="email" value={formData.email} onChange={handleChange} />
                                                 </div>
+                                                <div className="mx-0 mb-1 sm:mb-4">
+                                                    <label htmlFor="phone" className="pb-1 text-xs uppercase tracking-wider"></label>
+                                                    <input
+                                                        type="tel"
+                                                        id="phone"
+                                                        autoComplete="tel"
+                                                        placeholder="Your phone number"
+                                                        className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-sm dark:text-gray-300 sm:mb-0"
+                                                        name="phone"
+                                                        value={formData.phone}
+                                                        onChange={handleChange}
+                                                    />
+                                                </div>
                                             </div>
                                             <div className="mx-0 mb-1 sm:mb-4">
                                                 <label htmlFor="textarea" className="pb-1 text-xs uppercase tracking-wider"></label>
@@ -170,6 +184,7 @@ const Contact = () => {
                     </div>
                 </section>
             </div>
+            <WhatsAppButton />
             <Footer />
         </div>
     );
