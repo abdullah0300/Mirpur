@@ -104,8 +104,8 @@ const Contact = () => {
                                             <div class="ml-4 mb-4">
                                                 <h3 class="mb-2 text-lg font-medium leading-6 text-gray-900 dark:text-white">Contact
                                                 </h3>
-                                                <p class="text-black dark:text-black">Mobile: <a href="tel:+441332200205">+44 133 2200205</a></p>
-                                                <p class="text-black dark:text-black">Mail: <a href="mailto:frazmohammed241283@hotmail.com"> frazmohammed241283@hotmail.com</a></p>
+                                                <p class="text-black dark:text-black">Mobile: <a href="tel:+441332200205" style={{ textDecoration: 'underline' }}>+44 133 2200205</a></p>
+                                                <p class="text-black dark:text-black">Mail: <a href="mailto:frazmohammed241283@hotmail.com" style={{ textDecoration: 'underline' }}> frazmohammed241283@hotmail.com</a></p>
                                             </div>
                                         </li>
                                         <li class="flex">

@@ -118,8 +118,8 @@ const Footer = () => {
                 <hr className='w-12 my-1 rounded-lg' style={{ border: "3px solid #BD9229" }} />
               </div>
               <div className=' flex flex-col gap-3  text-black'>
-                <p><strong>Phone:</strong> <a href="tel:+441332200205">+44 133 2200205</a></p>
-                <p><strong>E-mail:</strong><a href="mailto:frazmohammed241283@hotmail.com"> frazmohammed241283@hotmail.com</a></p>
+                <p><strong>Phone:</strong> <a href="tel:+441332200205" style={{ textDecoration: 'underline' }}>+44 133 2200205</a></p>
+                <p><strong>E-mail: </strong><a href="mailto:frazmohammed241283@hotmail.com" style={{ textDecoration: 'underline' }}> frazmohammed241283@hotmail.com</a></p>
                 <p><strong>Address:</strong> 12 Pear Tree Road, Derby, United Kingdom</p>
 
               </div>
