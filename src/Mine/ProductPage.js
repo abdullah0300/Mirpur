@@ -109,7 +109,7 @@ const ProductPage = () => {
                                     <img className="object-cover rounded md:w-[15rem] w-[8rem]  md:h-60 h-[8rem]" src='https://ik.imagekit.io/mctozv7td/meena/More%20(4).png?updatedAt=1712006779491' alt="Sunset in the mountains" />
                                 </div>
                                 <div className="md:px-6 md:py-4 text-center">
-                                    <h2 className="absolute bottom-0 md:left-[7rem] left-[4rem] right-0 text-center xl:text-3xl md:text-2xl tracking-wide md:pb-5 pb-[1rem] text-white transition-all duration-300 ease-in-out ">
+                                    <h2 className="absolute bottom-0 md:left-[7rem] left-[4rem] right-0 text-center xl:text-3xl md:text-2xl tracking-wide md:pb-[3rem] pb-[1rem] text-white transition-all duration-300 ease-in-out ">
                                         <img className="md:h-[3rem] h-[2rem] animate-bounce" src="https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/arrow-right%20(1).png?updatedAt=1711850321170"></img>
                                     </h2>
                                 </div>

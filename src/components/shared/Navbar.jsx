@@ -69,7 +69,7 @@ const Navbar = () => {
               } justify-between w-full py-3`}
           >
             <FiMenu
-              className="text-3xl text-[#fdeab8]"
+              className="text-3xl text-[#b1704b]"
               onClick={() => setIsMobileOpen(true)}
             />
             <Link to='/'><img
@@ -83,7 +83,7 @@ const Navbar = () => {
               } flex-col w-full gap-3 py-3`}
           >
             <FiX
-              className="text-3xl text-[#fdeab8]"
+              className="text-3xl text-[#b1704b]"
               onClick={() => setIsMobileOpen(false)}
             />
             {categories.map((category, index) => (
