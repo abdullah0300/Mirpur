@@ -7,7 +7,7 @@ const data = [
   {
     id: 1,
     title: "get in touch with us",
-    sublinks: ["Phone: +44 133 2200205", " E-Mail: Support@mirpurjewellersderby.co.uk", "Address: 12 Pear Tree Road, Derby, United Kingdom"]
+    sublinks: ["Phone: +44 133 2200205", " E-Mail: frazmohammed241283@hotmail.com", "Address: 12 Pear Tree Road, Derby, United Kingdom"]
   },
 
 
@@ -119,7 +119,7 @@ const Footer = () => {
               </div>
               <div className=' flex flex-col gap-3  text-black'>
                 <p><strong>Phone:</strong> <a href="tel:+441332200205">+44 133 2200205</a></p>
-                <p><strong>E-mail:</strong><a href="mailto:support@mirpurjewellersderby.co.uk"> support@mirpurjewellersderby.co.uk</a></p>
+                <p><strong>E-mail:</strong><a href="mailto:frazmohammed241283@hotmail.com"> frazmohammed241283@hotmail.com</a></p>
                 <p><strong>Address:</strong> 12 Pear Tree Road, Derby, United Kingdom</p>
 
               </div>
