@@ -5,7 +5,7 @@ import MainBtn from "../../shared/MainBtn";
 import { Link } from "react-router-dom";
 import Bangles from "../../../assets/images/collections/bangles.jpg";
 const categories = [
-  { name: 'Necklaces', id: 'necklaces', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/c37564f44c5a7bd589fe88a05fb6830c.jpg?updatedAt=1711595038162' },
+  { name: 'Necklaces', id: 'necklaces', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/meenapic/IMG-20240403-WA0012.jpg?updatedAt=1712146106340' },
   { name: 'Bangles', id: 'bangles', src: 'https://ik.imagekit.io/mctozv7td/meena/IMG-20240401-WA0017.jpg?updatedAt=1712003085929' },
   { name: 'Rings', id: 'rings', src: 'https://ik.imagekit.io/mctozv7td/meena/IMG-20240401-WA0015.jpg?updatedAt=1712003083020' },
 ];
@@ -15,7 +15,7 @@ const CollectionSection = () => {
       {/* HEADINGS SECTION */}
       <div className=" flex flex-col gap-1 text-center">
 
-        <h3 className=" md:text-4xl text-1xl text-headingColor capitalize">
+        <h3 className=" md:text-4xl text-2xl text-headingColor capitalize">
           Our Collections
         </h3>
       </div>

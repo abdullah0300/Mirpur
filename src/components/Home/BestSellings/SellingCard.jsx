@@ -9,8 +9,8 @@ const SellingCard = ({ img, title }) => {
 
   return (
     <div className="mb-5 flex flex-col gap-2 text-left md:w-full w-60 xl:px-4 md:px-3 px-3">
-      <div className="sellingCard rounded relative" onClick={toggleModal}>
-        <img src={img} alt="img" className="rounded w-[15rem] h-60" />
+      <div className="sellingCard  rounded relative" onClick={toggleModal}>
+        <img src={img} alt="img" className="rounded object-cover w-[15rem] h-60" />
       </div>
       {isModalOpen && (
         <div
