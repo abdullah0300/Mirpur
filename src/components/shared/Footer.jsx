@@ -71,7 +71,7 @@ const Footer = () => {
                   {isOpen && links && (item.id === id) && <div>
                     <ul className=' flex flex-col gap-2 text-black'>
                     <div className=' flex flex-col gap-3  text-black'>
-                <p><strong>Phone:</strong> <a href="tel:+441332200205" style={{ textDecoration: 'underline' }}>+44 133 2200205</a></p>
+                <p><strong>Phone:</strong> <a href="tel:07445313937 " style={{ textDecoration: 'underline' }}>07445313937 </a></p>
                 <p><strong>E-mail: </strong><a href="mailto:frazmohammed241283@hotmail.com" style={{ textDecoration: 'underline' }}> frazmohammed241283@hotmail.com</a></p>
                 <p><strong>Address:</strong> 12 Pear Tree Road, Derby, United Kingdom</p>
 
