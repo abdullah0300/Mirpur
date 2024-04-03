@@ -104,7 +104,7 @@ const Contact = () => {
                                             <div class="ml-4 mb-4">
                                                 <h3 class="mb-2 text-lg font-medium leading-6 text-gray-900 dark:text-white">Contact
                                                 </h3>
-                                                <p class="text-black dark:text-black">Mobile: <a href="tel:+441332200205" style={{ textDecoration: 'underline' }}>+44 133 2200205</a></p>
+                                                <p class="text-black dark:text-black">Mobile: <a href="tel:07445313937 " style={{ textDecoration: 'underline' }}>07445313937 </a></p>
                                                 <p class="text-black dark:text-black">Mail: <a href="mailto:frazmohammed241283@hotmail.com" style={{ textDecoration: 'underline' }}> frazmohammed241283@hotmail.com</a></p>
                                             </div>
                                         </li>
@@ -120,8 +120,8 @@ const Contact = () => {
                                             <div class="ml-4 mb-4">
                                                 <h3 class="mb-2 text-lg font-medium leading-6 text-gray-900 dark:text-white">Working
                                                     hours</h3>
-                                                <p class="text-black dark:text-black">Monday - Friday: 08:00 - 17:00</p>
-                                                <p class="text-black dark:text-black">Saturday &amp; Sunday: 08:00 - 12:00</p>
+                                                <p class="text-black dark:text-black">Monday - Saturday: 11:00 - 19:00</p>
+                                                <p class="text-black dark:text-black">Sunday: Closed</p>
                                             </div>
                                         </li>
                                     </ul>

@@ -11,7 +11,7 @@ const CollectionPagecard = ({ title, img }) => {
                         className="object-cover rounded md:w-[15rem] w-[8rem] md:h-60 h-[8rem]"
                     />
                     <div className="md:px-6 md:py-4 text-center">
-                        <h2 className="absolute md:bottom-3 bottom-[0rem]  left-0 md:right-0 right-[3   rem] text-center xl:text-3xl md:text-2xl tracking-wide pb-4 text-white transition-all duration-300 ease-in-out ">
+                        <h2 className="absolute md:bottom-3 bottom-[0rem]  left-0 md:right-0 right-[3rem] text-center xl:text-3xl md:text-2xl tracking-wide pb-4 text-white transition-all duration-300 ease-in-out ">
                             {title}
                         </h2>
                     </div>
