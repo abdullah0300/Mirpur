@@ -11,7 +11,7 @@ const categories = [
 ];
 const CollectionSection = () => {
   return (
-    <div className="mt-4 flex flex-col gap-4 my-10">
+    <div className=" flex flex-col md:gap-4  my-10">
       {/* HEADINGS SECTION */}
       <div className=" flex flex-col gap-1 text-center">
 
@@ -21,18 +21,22 @@ const CollectionSection = () => {
       </div>
 
       {/* CARDS SECTION */}
-      <div className="flex md:justify-center md:gap-[2rem] gap-[1rem] p-2">
+      <div className="flex md:justify-center md:gap-[2rem] gap-[1rem] mt-2 p-2">
         {categories.map((category, index) => (
           <Link to={`/ProductPage/${category.id}`}>
 
             <CollectionCard title={category.name} img={category.src}
             />
           </Link>
-          
+
         ))}
       </div>
       <div className="mt-3 flex bg-white   justify-center items-center">
-        <Link to='./CollectionPage'> <MainBtn /></Link>
+        <Link to='./CollectionPage'> <button className=' text-center bg-[#f8f9fa] px-[40px] md:px-[80px] md:py-[10px] py-[6px] text-black text-md md:text-xl hover:text-black hover:bg-grey transition-all duration-300 ease-in-out transform-gpu hover:scale-105 group'>
+          <span className='transform translate-y-[8] transition duration-300 ease-in-out group-hover:translate-y-[200px]'>
+            View All
+          </span>
+        </button></Link>
       </div>
     </div>
   );

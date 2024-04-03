@@ -7,7 +7,7 @@ const HeroSection = () => {
   return (
     <div
       id="carouselExampleAutoplaying"
-      className="carousel mb-[3rem] slide "
+      className="carousel md:mb-[3rem] mb-[1rem] slide "
       data-bs-ride="carousel"
     >
 

@@ -10,11 +10,18 @@ import { Link } from "react-router-dom";
 
 const products = {
     necklaces: [
-        { name: 'Necklace ', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/4bd4b6d1b929fcddd6d87bede153a14f.jpg?updatedAt=1711595038133', description: 'description' },
-        { name: 'Product 2', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/4bd4b6d1b929fcddd6d87bede153a14f.jpg?updatedAt=1711595038133', description: 'description' },
-        { name: 'Product 3', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/4bd4b6d1b929fcddd6d87bede153a14f.jpg?updatedAt=1711595038133', description: 'description' },
-        { name: 'Product 4', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/4bd4b6d1b929fcddd6d87bede153a14f.jpg?updatedAt=1711595038133', description: 'description' },
-        { name: 'Product 5', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/4bd4b6d1b929fcddd6d87bede153a14f.jpg?updatedAt=1711595038133', description: 'description' }
+        { name: 'Necklace ', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/meenapic/IMG-20240403-WA0014.jpg?updatedAt=1712146106981', description: 'description' },
+        { name: 'Product 2', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/meenapic/IMG-20240403-WA0013.jpg?updatedAt=1712146106550', description: 'description' },
+        { name: 'Product 3', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/meenapic/IMG-20240403-WA0012.jpg?updatedAt=1712146106340', description: 'description' },
+        { name: 'Product 4', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/meenapic/IMG-20240403-WA0011.jpg?updatedAt=1712146104497', description: 'description' },
+        { name: 'Product 5', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/meenapic/IMG-20240403-WA0010.jpg?updatedAt=1712146103821', description: 'description' },
+        { name: 'Necklace ', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/meenapic/IMG-20240403-WA0005.jpg?updatedAt=1712146103635', description: 'description' },
+        { name: 'Product 2', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/meenapic/IMG-20240403-WA0009.jpg?updatedAt=1712146103736', description: 'description' },
+        { name: 'Product 3', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/meenapic/IMG-20240403-WA0008.jpg?updatedAt=1712146103590', description: 'description' },
+        { name: 'Product 4', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/meenapic/IMG-20240403-WA0006.jpg?updatedAt=1712146103731', description: 'description' },
+        { name: 'Product 5', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/meenapic/IMG-20240403-WA0007.jpg?updatedAt=1712146103586', description: 'description' },
+        { name: 'Product 4', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/meenapic/IMG-20240403-WA0004.jpg?updatedAt=1712146102996', description: 'description' },
+        { name: 'Product 5', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/meenapic/IMG-20240403-WA0003.jpg?updatedAt=1712146102917', description: 'description' },
 
     ],
     bangles: [
@@ -50,11 +57,8 @@ const products = {
 
     ],
     chainsbraclets: [
-        { name: 'Earrings ', src: Earrings, description: 'description' },
-        { name: 'Product 2', src: Earrings, description: 'description' },
-        { name: 'Product 3', src: Earrings, description: 'description' },
-        { name: 'Product 4', src: Earrings, description: 'description' },
-        { name: 'Product 5', src: Earrings, description: 'description' }
+        { name: 'chainsbraclets ', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/meenapic/WhatsApp%20Image%202024-04-03%20at%2016.41.46_33e72fe3.jpg?updatedAt=1712146106870', description: 'description' },
+        { name: 'chainsbraclets 2', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/meenapic/WhatsApp%20Image%202024-04-03%20at%2016.41.47_6312142d.jpg?updatedAt=1712146106850', description: 'description' }
 
     ]
 };
@@ -69,10 +73,10 @@ const ProductPage = () => {
     };
     const categoryDescription = categoryDescriptions[categoryId];
     const categoryImages = {
-        necklaces: 'https://ik.imagekit.io/mctozv7td/meena/2.jpg?updatedAt=1711471154963', // Add your necklaces category image source here
+        necklaces: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/meenapic/2.png?updatedAt=1712147754153', // Add your necklaces category image source here
         bangles: 'https://ik.imagekit.io/mctozv7td/meena/Beige%20Aesthetic%20Handmade%20Accessories%20Etsy%20Shop%20Cover.png?updatedAt=1712005371073', // Add your bangles category image source here
         rings: 'https://ik.imagekit.io/mctozv7td/meena/2.png?updatedAt=1712005592248', // Add your bridal category image source here
-        chainsbraclets: 'https://ik.imagekit.io/mctozv7td/meena/2.jpg?updatedAt=1711471154963' // Add your earrings category image source here
+        chainsbraclets: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/meenapic/1.png?updatedAt=1712147754105' // Add your earrings category image source here
     };
     const categoryImage = categoryImages[categoryId];
 

@@ -7,11 +7,11 @@ import MainBtn from "../../shared/MainBtn";
 const BestSellingSection = () => {
   return (
     <>
-      <div className=" flex flex-col text-left  mt-[0rem] gap-8 md:px-[60px] px-[16px] my-10">
+      <div className=" flex flex-col text-left  md:mt-[3rem] gap-8 md:px-[60px] px-[16px] my-10">
         {/* HEADINGS SECTION */}
         <div className=" flex flex-col gap-1 text-left">
 
-          <h3 className="md:text-4xl text-2xl text-[#b1704b] mb-2  mt-5 text-left">
+          <h3 className="md:text-4xl text-2xl text-[#b1704b] mb-2  md:mt-5  text-left">
             We can create your imagination
 
           </h3>
@@ -29,7 +29,7 @@ const BestSellingSection = () => {
         </div>
         <div className=" flex bg-white   justify-center items-center">
           <Link to='./CollectionPage'>
-            <button className=' text-center bg-[#c8c9ca] px-[80px] py-[10px] text-black text-xl hover:text-black hover:bg-grey transition-all duration-300 ease-in-out transform-gpu hover:scale-105 group'>
+            <button className=' text-center bg-[#eff3f7] px-[40px] md:px-[80px] md:py-[10px] py-[6px] text-black text-md md:text-xl hover:text-black hover:bg-grey transition-all duration-300 ease-in-out transform-gpu hover:scale-105 group'>
               <span className='transform translate-y-[8] transition duration-300 ease-in-out group-hover:translate-y-[200px]'>
                 View All
               </span>
