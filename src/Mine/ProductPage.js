@@ -56,9 +56,9 @@ const products = {
         { name: 'Product 6', src: 'https://ik.imagekit.io/mctozv7td/meena/IMG-20240401-WA0012.jpg?updatedAt=1712003082828', description: 'description' },
 
     ],
-    chainsbraclets: [
-        { name: 'chainsbraclets ', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/meenapic/WhatsApp%20Image%202024-04-03%20at%2016.41.46_33e72fe3.jpg?updatedAt=1712146106870', description: 'description' },
-        { name: 'chainsbraclets 2', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/meenapic/WhatsApp%20Image%202024-04-03%20at%2016.41.47_6312142d.jpg?updatedAt=1712146106850', description: 'description' }
+    chainsbracelets: [
+        { name: 'chainsbracelets ', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/meenapic/WhatsApp%20Image%202024-04-03%20at%2016.41.46_33e72fe3.jpg?updatedAt=1712146106870', description: 'description' },
+        { name: 'chainsbracelets 2', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/meenapic/WhatsApp%20Image%202024-04-03%20at%2016.41.47_6312142d.jpg?updatedAt=1712146106850', description: 'description' }
 
     ]
 };
@@ -69,14 +69,14 @@ const ProductPage = () => {
         necklaces: "Our Gold necklaces are stunning pieces of jewellery that adorn the neckline with timeless elegance and sophistication. Crafted from luxurious gold, they come in a myriad of styles, from delicate chains to elaborate pendant designs. Their radiant shine and smooth texture create a captivating allure, making them a versatile accessory suitable for any occasion. Whether worn as a standalone statement piece or layered with other necklaces for a trendy look, gold necklaces effortlessly elevate any ensemble.",
         bangles: "Gold bangles are exquisite pieces of jewellery that adorn the wrists with timeless beauty and elegance. Crafted from 22 and 24 carat gold, they come in a variety of designs, from simple, sleek styles to intricately detailed patterns. Their smooth, polished surfaces catch the light, creating a captivating shimmer with every movement. Gold bangles are versatile accessories that can be worn alone for a touch of sophistication or stacked with other bangles for a bold, glamorous look.",
         rings: "Our gold rings are timeless pieces of jewellery that exude elegance and sophistication. Crafted from precious metal,  our rings come in various styles, from classic bands to intricate designs adorned with gemstones. Their lustrous shine and enduring quality make them cherished symbols of love, commitment, and style. Whether worn as engagement rings, wedding bands, or fashion accessories, gold rings are versatile pieces that add a touch of luxury to any ensemble. ",
-        chainsbraclets: "Whether worn individually as standalone accessories or layered together for a trendy look, gold bracelets and chains add a touch of luxury to any outfit. They effortlessly elevate both casual and formal ensembles, making them versatile pieces in any jewellery collection. With their radiant shine and enduring quality, gold bracelets and chains are cherished accessories that symbolize elegance and style."
+        chainsbracelets: "Whether worn individually as standalone accessories or layered together for a trendy look, gold bracelets and chains add a touch of luxury to any outfit. They effortlessly elevate both casual and formal ensembles, making them versatile pieces in any jewellery collection. With their radiant shine and enduring quality, gold bracelets and chains are cherished accessories that symbolize elegance and style."
     };
     const categoryDescription = categoryDescriptions[categoryId];
     const categoryImages = {
         necklaces: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/meenapic/2.png?updatedAt=1712147754153', // Add your necklaces category image source here
         bangles: 'https://ik.imagekit.io/mctozv7td/meena/Beige%20Aesthetic%20Handmade%20Accessories%20Etsy%20Shop%20Cover.png?updatedAt=1712005371073', // Add your bangles category image source here
         rings: 'https://ik.imagekit.io/mctozv7td/meena/2.png?updatedAt=1712005592248', // Add your bridal category image source here
-        chainsbraclets: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/meenapic/1.png?updatedAt=1712147754105' // Add your earrings category image source here
+        chainsbracelets: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/meenapic/1.png?updatedAt=1712147754105' // Add your earrings category image source here
     };
     const categoryImage = categoryImages[categoryId];
 

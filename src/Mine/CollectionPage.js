@@ -8,9 +8,9 @@ import { Link } from "react-router-dom";
 
 const categories = [
     { name: 'Necklaces', id: 'necklaces', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/meenapic/IMG-20240403-WA0012.jpg?updatedAt=1712146106340' },
-    { name: 'Bangles', id: 'bangles', src:'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/meenapic/IMG-20240401-WA0027.jpg?updatedAt=1712146099763' },
+    { name: 'Bangles', id: 'bangles', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/meenapic/IMG-20240401-WA0027.jpg?updatedAt=1712146099763' },
     { name: 'Rings', id: 'rings', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/meenapic/IMG-20240401-WA0019.jpg?updatedAt=1712146097595' },
-    { name: 'Chains/Braclets', id: 'chainsbraclets', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/meenapic/WhatsApp%20Image%202024-04-03%20at%2016.41.47_6312142d.jpg?updatedAt=1712146106850' },
+    { name: 'Chains/Braclets', id: 'chainsbracelets', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/meenapic/WhatsApp%20Image%202024-04-03%20at%2016.41.47_6312142d.jpg?updatedAt=1712146106850' },
 ];
 
 const CollectionPage = () => {
