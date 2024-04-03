@@ -56,7 +56,7 @@ const products = {
         { name: 'Product 6', src: 'https://ik.imagekit.io/mctozv7td/meena/IMG-20240401-WA0012.jpg?updatedAt=1712003082828', description: 'description' },
 
     ],
-    chainsbracelets: [
+    chains_bracelets: [
         { name: 'chainsbracelets ', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/meenapic/WhatsApp%20Image%202024-04-03%20at%2016.41.46_33e72fe3.jpg?updatedAt=1712146106870', description: 'description' },
         { name: 'chainsbracelets 2', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/meenapic/WhatsApp%20Image%202024-04-03%20at%2016.41.47_6312142d.jpg?updatedAt=1712146106850', description: 'description' }
 
@@ -76,7 +76,7 @@ const ProductPage = () => {
         necklaces: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/meenapic/2.png?updatedAt=1712147754153', // Add your necklaces category image source here
         bangles: 'https://ik.imagekit.io/mctozv7td/meena/Beige%20Aesthetic%20Handmade%20Accessories%20Etsy%20Shop%20Cover.png?updatedAt=1712005371073', // Add your bangles category image source here
         rings: 'https://ik.imagekit.io/mctozv7td/meena/2.png?updatedAt=1712005592248', // Add your bridal category image source here
-        chainsbracelets: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/meenapic/1.png?updatedAt=1712147754105' // Add your earrings category image source here
+        chains_bracelets: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/meenapic/1.png?updatedAt=1712147754105' // Add your earrings category image source here
     };
     const categoryImage = categoryImages[categoryId];
 

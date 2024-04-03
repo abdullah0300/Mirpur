@@ -17,8 +17,8 @@ const SellingCard = ({ img, title }) => {
           className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-75 z-50"
           onClick={toggleModal}
         >
-          <div className="modalContainer relative md:mr-[0rem] mr-[0rem] bg-white rounded-lg">
-            <img src={img} alt="img" className="rounded-lg md:w-[30rem] w-[16rem]  h-[16rem] md:h-[30rem]" />
+          <div className="modalContainer relative  md:w-[18rem] w-[16rem] md:mr-[0rem] mr-[0rem] bg-white rounded-lg">
+            <img src={img} alt="img" className="rounded-lg md:w-[30rem] w-[16rem]  " />
             <button
               className="absolute top-2 right-2 btn-sm btn bg-white text-gray-700"
               onClick={toggleModal}
