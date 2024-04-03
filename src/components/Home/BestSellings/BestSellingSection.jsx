@@ -27,7 +27,7 @@ const BestSellingSection = () => {
             ))}
           </div>
         </div>
-        <div className=" flex bg-white   justify-center items-center">
+        <div className=" flex bg-white -mt-[2.5rem]  justify-center items-center">
           <Link to='./CollectionPage'>
             <button className=' text-center bg-[#eff3f7] px-[40px] md:px-[80px] md:py-[10px] py-[6px] text-black text-md md:text-xl hover:text-black hover:bg-grey transition-all duration-300 ease-in-out transform-gpu hover:scale-105 group'>
               <span className='transform translate-y-[8] transition duration-300 ease-in-out group-hover:translate-y-[200px]'>
