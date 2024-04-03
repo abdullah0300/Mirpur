@@ -11,7 +11,7 @@ const BestSellingSection = () => {
         {/* HEADINGS SECTION */}
         <div className=" flex flex-col gap-1 text-left">
 
-          <h3 className="md:text-4xl text-2xl text-[#b1704b] mb-2  md:mt-5  text-left">
+          <h3 className="md:text-4xl text-2xl text-[#b1704b] mb-2  md:mt-5 mt-3  text-left">
             We can create your imagination
 
           </h3>
