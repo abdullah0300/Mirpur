@@ -11,11 +11,21 @@ const BannerSection = () => {
         {/* <span className=" text-[#CD885F] xl:text-xl md:text-lg text-sm">
           Stunning Jewels
         </span> */}
-        <h3 className="xl:text-6xl text-black md:text-5xl text-2xl royal" >About us</h3>
-        <p className=" text-[#636161] xl:text-lg md:text-base text-xs md:w-[96%] md:mb-0 mb-4">
-          Mirpur Jewellers, a longstanding cornerstone in Derby's vibrant community, has been illuminating lives for over three decades with its exquisite array of jewellery. Renowned for our unparalleled expertise and impeccable service, we pride ourselves on offering the widest range of 22ct jewellery, catering to every occasion and taste, from opulent bridal sets to elegant daily accessories. Our commitment to diversity extends to our extensive collection of silver jewellery, boasting the largest selection in the region. From sophisticated men's silver jewellery to enchanting women's silver rings, anklets, and bracelets, each piece reflects timeless elegance and unparalleled craftsmanship. At Mirpur Jewellers, we don't just sell jewellery; we curate unforgettable experiences, marking life's precious moments with enduring beauty and grace.<span className="hidden"> Discover the perfect blend of tradition
-            and modernity wi  th Mirpur Jewellers Derby,
-            where every piece is imbued with beauty, grace, and unparalleled craftsmanship.</span>
+        <h3 className="xl:text-6xl text-black md:text-5xl text-2xl royal mt-[3rem]" >About us</h3>
+        <p className=" text-[#636161] xl:text-lg md:text-base mb-4 text-xs md:w-[92%]   ">
+          Mirpur Jewellers, a longstanding cornerstone in Derby's vibrant community,
+          has been illuminating lives for over three decades with its exquisite array of jewellery.
+          Renowned for our unparalleled expertise and impeccable service,
+          we pride ourselves on offering the widest range of 22ct jewellery,
+          catering to every occasion and taste, from opulent bridal sets to
+          elegant daily accessories. Our
+          commitment to diversity extends to our extensive collection of silver
+          jewellery, boasting the largest selection in the region. From sophisticated
+          men's silver jewellery to enchanting women's silver rings, anklets,
+          and bracelets, each piece reflects timeless elegance and unparalleled
+          craftsmanship. At Mirpur Jewellers, we don't just sell jewellery;
+          we curate unforgettable experiences, marking life's precious moments
+          with enduring beauty and grace.
         </p>
 
       </div>
