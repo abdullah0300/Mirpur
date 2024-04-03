@@ -8,7 +8,7 @@ const categories = [
   { name: 'Necklaces', id: 'necklaces', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/c37564f44c5a7bd589fe88a05fb6830c.jpg?updatedAt=1711595038162' },
   { name: 'Bangles', id: 'bangles', src: Bangles },
   { name: 'Rings', id: 'rings', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/signal-2024-03-28-081020_005.jpeg?updatedAt=1711595532330' },
-  { name: 'Chains/Braclets', id: 'chainsbracelets', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/signal-2024-03-28-081020_004.jpeg?updatedAt=1711595534488' },
+  { name: 'Chains/Bracelets', id: 'chainsbracelets', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/signal-2024-03-28-081020_004.jpeg?updatedAt=1711595534488' },
 ];
 
 const Navbar = () => {
