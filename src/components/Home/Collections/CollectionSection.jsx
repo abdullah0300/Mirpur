@@ -15,7 +15,7 @@ const CollectionSection = () => {
       {/* HEADINGS SECTION */}
       <div className=" flex flex-col gap-1 text-center">
 
-        <h3 className=" md:text-4xl text-2xl text-headingColor capitalize">
+        <h3 className=" md:text-4xl text-2xl text-headingColor mb-2 capitalize">
           Our Collections
         </h3>
       </div>
@@ -31,7 +31,7 @@ const CollectionSection = () => {
 
         ))}
       </div>
-      <div className="mt-3 flex bg-white   justify-center items-center">
+      <div className="mt-4 flex bg-white   justify-center items-center">
         <Link to='./CollectionPage'> <button className=' text-center bg-[#f8f9fa] px-[40px] md:px-[80px] md:py-[10px] py-[6px] text-black text-md md:text-xl hover:text-black hover:bg-grey transition-all duration-300 ease-in-out transform-gpu hover:scale-105 group'>
           <span className='transform translate-y-[8] transition duration-300 ease-in-out group-hover:translate-y-[200px]'>
             View All
