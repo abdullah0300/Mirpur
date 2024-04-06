@@ -14,8 +14,7 @@ const App = () => {
           <Route
             path="/"
             element={<Home />}
-            title="Mirpur Jewellers Derby - Exquisite Jewellery Collection"
-            description="Discover timeless elegance and sophistication with Mirpur Jewellers Derby. Explore our curated collection of exquisite necklaces, earrings, and bangles, crafted with impeccable artistry."
+         
           />
           <Route
             path="Contact"
