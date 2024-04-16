@@ -53,7 +53,12 @@ const products = {
         { name: 'Product 5', src: 'https://ik.imagekit.io/mctozv7td/meena/IMG-20240401-WA0011.jpg?updatedAt=1712003082838', description: 'description' },
         { name: 'Product 6', src: 'https://ik.imagekit.io/mctozv7td/meena/IMG-20240401-WA0008.jpg?updatedAt=1712003082905', description: 'description' },
         { name: 'Product 6', src: 'https://ik.imagekit.io/mctozv7td/meena/IMG-20240401-WA0007.jpg?updatedAt=1712003082852', description: 'description' },
-        { name: 'Product 6', src: 'https://ik.imagekit.io/mctozv7td/meena/IMG-20240401-WA0012.jpg?updatedAt=1712003082828', description: 'description' },
+        { name: 'Product 7', src: 'https://ik.imagekit.io/mctozv7td/meena/IMG-20240401-WA0012.jpg?updatedAt=1712003082828', description: 'description' },
+        { name: 'Product 6', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/IMG-20240416-WA0008.jpg?updatedAt=1713274428382', description: 'description' },
+        { name: 'Product 6', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/IMG-20240416-WA0007.jpg?updatedAt=1713274428430', description: 'description' },
+        { name: 'Product 6', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/IMG-20240416-WA0009.jpg?updatedAt=1713274428427', description: 'description' },
+        { name: 'Product 6', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/IMG-20240416-WA0010.jpg?updatedAt=1713274428423', description: 'description' },
+        { name: 'Product 6', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/IMG-20240416-WA0006.jpg?updatedAt=1713274428422', description: 'description' },
 
     ],
     chains_bracelets: [
