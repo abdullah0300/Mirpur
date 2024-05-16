@@ -12,6 +12,8 @@ const products = {
     necklaces: [
         { name: 'Necklace ', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/meenapic/IMG-20240403-WA0014.jpg?updatedAt=1712146106981', description: 'description' },
         { name: 'Product 2', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/meenapic/IMG-20240403-WA0013.jpg?updatedAt=1712146106550', description: 'description' },
+        { name: 'Product 7', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/IMG-20240517-WA0010.jpg?updatedAt=1715895997938', description: 'description' },
+        { name: 'Product 7', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/IMG-20240517-WA0012.jpg?updatedAt=1715895997800', description: 'description' },
         { name: 'Product 3', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/meenapic/IMG-20240403-WA0012.jpg?updatedAt=1712146106340', description: 'description' },
         { name: 'Product 4', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/meenapic/IMG-20240403-WA0011.jpg?updatedAt=1712146104497', description: 'description' },
         { name: 'Product 5', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/meenapic/IMG-20240403-WA0010.jpg?updatedAt=1712146103821', description: 'description' },
@@ -26,6 +28,7 @@ const products = {
     ],
     bangles: [
         { name: 'Bangles  ', src: 'https://ik.imagekit.io/mctozv7td/meena/IMG-20240401-WA0028.jpg?updatedAt=1712003090570', description: 'description' },
+        { name: 'Product 6', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/IMG-20240517-WA0015.jpg?updatedAt=1715895997915', description: 'description' },
         { name: 'Product 2', src: 'https://ik.imagekit.io/mctozv7td/meena/IMG-20240401-WA0027.jpg?updatedAt=1712003090494', description: 'description' },
         { name: 'Product 3', src: 'https://ik.imagekit.io/mctozv7td/meena/IMG-20240401-WA0031.jpg?updatedAt=1712003090474', description: 'description' },
         { name: 'Product 4', src: 'https://ik.imagekit.io/mctozv7td/meena/IMG-20240401-WA0030.jpg?updatedAt=1712003090418', description: 'description' },
@@ -34,7 +37,7 @@ const products = {
         { name: 'Product 5', src: 'https://ik.imagekit.io/mctozv7td/meena/IMG-20240401-WA0022.jpg?updatedAt=1712003087066', description: 'description' },
         { name: 'Product 5', src: 'https://ik.imagekit.io/mctozv7td/meena/IMG-20240401-WA0026.jpg?updatedAt=1712003086221', description: 'description' },
         { name: 'Product 5', src: 'https://ik.imagekit.io/mctozv7td/meena/IMG-20240401-WA0023.jpg?updatedAt=1712003086100', description: 'description' },
-        { name: 'Product 5', src: 'https://ik.imagekit.io/mctozv7td/meena/IMG-20240401-WA0017.jpg?updatedAt=1712003085929', description: 'description' }
+        { name: 'Product 5', src: 'https://ik.imagekit.io/mctozv7td/meena/IMG-20240401-WA0017.jpg?updatedAt=1712003085929', description: 'description' },
 
 
 
