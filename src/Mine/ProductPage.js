@@ -63,7 +63,11 @@ const products = {
     ],
     chains_bracelets: [
         { name: 'chainsbracelets ', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/meenapic/WhatsApp%20Image%202024-04-03%20at%2016.41.46_33e72fe3.jpg?updatedAt=1712146106870', description: 'description' },
-        { name: 'chainsbracelets 2', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/meenapic/WhatsApp%20Image%202024-04-03%20at%2016.41.47_6312142d.jpg?updatedAt=1712146106850', description: 'description' }
+        { name: 'chainsbracelets 2', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/meenapic/WhatsApp%20Image%202024-04-03%20at%2016.41.47_6312142d.jpg?updatedAt=1712146106850', description: 'description' },
+        { name: 'chainsbracelets 3', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/IMG-20240517-WA0011.jpg?updatedAt=1715895998177', description: 'description' },
+        { name: 'chainsbracelets 3', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/IMG-20240517-WA0009.jpg?updatedAt=1715895998156', description: 'description' },
+        { name: 'chainsbracelets 3', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/IMG-20240517-WA0014.jpg?updatedAt=1715895998036', description: 'description' },
+
 
     ]
 };
