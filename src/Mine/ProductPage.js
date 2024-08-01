@@ -24,6 +24,12 @@ const products = {
         { name: 'Product 5', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/meenapic/IMG-20240403-WA0007.jpg?updatedAt=1712146103586', description: 'description' },
         { name: 'Product 4', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/meenapic/IMG-20240403-WA0004.jpg?updatedAt=1712146102996', description: 'description' },
         { name: 'Product 5', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/meenapic/IMG-20240403-WA0003.jpg?updatedAt=1712146102917', description: 'description' },
+        { name: 'Product 5', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/IMG-20240801-WA0011.jpg?updatedAt=1722551662249', description: 'description' },
+        { name: 'Product 5', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/IMG-20240801-WA0012.jpg?updatedAt=1722551662259', description: 'description' },
+        { name: 'Product 3', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/IMG-20240801-WA0010.jpg?updatedAt=1722551662260', description: 'description' },
+        { name: 'Product 2', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/IMG-20240801-WA0013.jpg?updatedAt=1722551662280', description: 'description' },
+        { name: 'Product 1', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/WhatsApp%20Image%202024-08-01%20at%2018.04.18_91586fb7.jpg?updatedAt=1722551662525', description: 'description' },
+
 
     ],
     bangles: [
