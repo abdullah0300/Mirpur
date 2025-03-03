@@ -32,6 +32,9 @@ const products = {
         { name: 'Product 5', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/necklace3.jpg?updatedAt=1732720824229', description: 'description' },
         { name: 'Product 5', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/neclace.jpg?updatedAt=1732720824263', description: 'description' },
         { name: 'Product 5', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/WhatsApp%20Image%202024-08-01%20at%2018.04.18_91586fb7.jpg?updatedAt=1722551662525', description: 'description' },
+        { name: 'Product 6', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/IMG-20250301-WA0005.jpg?updatedAt=1741010772063', description: 'description' },
+        { name: 'Product 6', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/IMG-20250301-WA0006.jpg?updatedAt=1741010772101', description: 'description' },
+        { name: 'Product 6', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/IMG-20250301-WA0007.jpg?updatedAt=1741010772094', description: 'description' },
 
 
     ],
@@ -54,6 +57,11 @@ const products = {
         { name: 'Product 6', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/bangles1.jpg?updatedAt=1732720825267', description: 'description' },
         { name: 'Product 6', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/bangles.jpg?updatedAt=1732720824750', description: 'description' },
         { name: 'Product 7', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/bangles2.jpg?updatedAt=1732720824741', description: 'description' },
+        { name: 'Product 7', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/IMG-20250301-WA0011.jpg?updatedAt=1741010772092', description: 'description' },
+        { name: 'Product 7', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/IMG-20250301-WA0010.jpg?updatedAt=1741010771806', description: 'description' },
+        { name: 'Product 7', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/IMG-20250301-WA0009.jpg?updatedAt=1741010771695', description: 'description' },
+        { name: 'Product 7', src: 'https://ik.imagekit.io/mctozv7td/Mirpur%20Jewelers/IMG-20250301-WA0008.jpg?updatedAt=1741010771687', description: 'description' },
+
 
 
 
